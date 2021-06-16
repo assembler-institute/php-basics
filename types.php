@@ -49,7 +49,7 @@
     echo "\$boolVar = $boolVar <br> \$intVar = $intVar <br> 
     \$floatVar = $floatVar <br> \$stringVar = $stringVar <br>";
     echo "\$arrayVar = "; print_r($arrayVar); echo "<br> \$objectVar = "; 
-    print_r($objectVar); echo "<br> \$nullVar = $nullVar";
+    print_r($objectVar); echo "<br> \$nullVar = "; var_dump($nullVar);
 
     ?>
     <br><br>
