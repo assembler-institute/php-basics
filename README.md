@@ -19,13 +19,14 @@
 
 ## screenshot
 <img width="1440" alt="스크린샷 2021-06-16 22 24 15" src="https://user-images.githubusercontent.com/50446830/122287877-ba1f8480-cef1-11eb-81e9-9f98dc46aa11.png">  
-#
+
 
 ## Connect with me:
 <p align="left">
 <a href="https://linkedin.com/in/solaz0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="solaz0824" height="30" width="40" /></a>
 <a href="https://instagram.com/solaz0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="solaz0824" height="30" width="40" /></a>
 </p>
+
 #
 
 
