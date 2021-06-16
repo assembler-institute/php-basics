@@ -7,7 +7,7 @@
  
  $originalString="este es mi texto, en el reemplazaré la palabra reemplazo por reemplazada";
 
- function remplacer($text,$reemplacerWord,$reemplacedWord, $rempalacedWordCaseS){
+function remplacer($text,$reemplacerWord,$reemplacedWord, $rempalacedWordCaseS){
 
     echo nl2br("$text\n");
     echo str_replace($reemplacedWord,$reemplacerWord,$text);
@@ -16,7 +16,7 @@
     echo nl2br("\nNon sensitive case\n\n");
 
  }
- remplacer($originalString,"reemplazo","reemplazada", "REeMplazo" );
+remplacer($originalString,"reemplazo","reemplazada", "REeMplazo" );
 
 
 $repitedText=nl2br("Este texto será repetido 5 vezes\n");
