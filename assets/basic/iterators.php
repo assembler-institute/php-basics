@@ -1,6 +1,6 @@
 <?php
 // Usage of "for" loop
-echo "<p>For loop<p>";
+echo "<h4>For loop</h4>";
 
 $maxNum = 5;
 
@@ -9,7 +9,7 @@ for ($i = 0; $i < $maxNum; $i++){
 }
 
 // Usage of "foreach" loop
-echo "<p>Foreach loop<p>";
+echo "<h4>Foreach loop</h4>";
 
 $testArr = array("John", "Paul", "George", "Ringo");
 
@@ -18,7 +18,7 @@ foreach($testArr as $beatle){
 }
 
 // Usage of "while" loop
-echo "<p>While loop<p>";
+echo "<h4>While loop</h4>";
 
 $whileNum = 0;
 $maxNum = 10;
@@ -29,7 +29,7 @@ while($whileNum <= $maxNum){
 }
 
 // Usage of "do while" loop
-echo "<p>Do while loop<p>";
+echo "<h4>Do while loop</h4>";
 
 $doWhileNum = 0;
 

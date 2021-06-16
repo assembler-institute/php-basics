@@ -1,6 +1,6 @@
 <?php
 // Arithmetic operators
-echo "<p>Arithmetic operators<p>";
+echo "<h4>Arithmetic operators</h4>";
 
 $addition = 3 + 5;
 $subtraction = 6 - 2;
@@ -11,7 +11,7 @@ $modulor = 15%4;
 echo "Addition: $addition <br>Subtraction: $subtraction <br>Multiplication: $multiplication <br>Division: $division <br>Modulor: $modulor <br>";
 
 // Comparison operators
-echo "<p>Comparison operators<p>";
+echo "<h4>Comparison operators</h4>";
 
 echo "Equal: 1==1 ", var_dump(1==1), "<br>";
 echo "Not equal: 1!=1 ", var_dump(1!=1), "<br>";
@@ -21,7 +21,7 @@ echo "Less or equal than: 1<=2 ", var_dump(1<=2), "<br>";
 echo "Greater or equal than: 1>=2 ", var_dump(1>=2), "<br>";
 
 // Logical operators
-echo "<p>Logical operators<p>";
+echo "<h4>Logical operators</h4>";
 
 echo "true && true: ", var_dump(true && false), "<br>";
 echo "true || false: ", var_dump(true || false), "<br>";

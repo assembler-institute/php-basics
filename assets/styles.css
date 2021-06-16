@@ -1,0 +1,74 @@
+/* -------------------------------------------------------------------------- */
+/*                                   GENERAL                                  */
+/* -------------------------------------------------------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: red solid 2px; */
+  font-family: "Exo";
+}
+
+.demo-code {
+  font-family: "Courier New", Courier, monospace;
+  color: lightgreen;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    PAGE                                    */
+/* -------------------------------------------------------------------------- */
+body {
+  height: 100vh;
+}
+
+header {
+  height: fit-content;
+  color: color;
+  border-bottom: lightgreen solid 5px;
+  padding: 10px 30px;
+}
+
+#pageTitle {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+main {
+  flex-grow: 1;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+  padding: 0px 30px;
+}
+
+footer {
+  border-top: lightgreen solid 5px;
+  padding: 10px 30px;
+  color: black;
+  height: 50px;
+}
+
+.footer-element {
+  width: fit-content;
+  padding: 0;
+}
+
+#footerRight {
+  text-align: right;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   BLOCKS                                   */
+/* -------------------------------------------------------------------------- */

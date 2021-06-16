@@ -1,6 +1,6 @@
 <?php
 // If statement
-echo "<p>Print if 'Monday'<p>";
+echo "<h4>Print if 'Monday'</h4>";
 
 $currentDay = date("l");
 
@@ -11,7 +11,7 @@ if ($currentDay == "Monday"){
 }
 
 // If/Else statement
-echo "<p>Print if/else 'October'<p>";
+echo "<h4>Print if/else 'October'</h4>";
 
 $currentMonth = new DateTime();
 
@@ -22,7 +22,7 @@ if (date("F") == "October"){
 }
 
 // If/Elseif/Else statement
-echo "<p>Print if/elseif/else minutes<p>";
+echo "<h4>Print if/elseif/else minutes</h4>";
 
 $currentMinute = date("i");
 
@@ -35,7 +35,7 @@ if ($currentMinute < 10){
 }
 
 // Switch statement
-echo "<p>Swtich<p>";
+echo "<h4>Swtich</h4>";
 
 $currentWeekday = date("l");
 

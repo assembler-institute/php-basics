@@ -1,6 +1,6 @@
 <?php
 // Type asigning
-echo "<p>Assigning types<p>";
+echo "<h4>Assigning types</h4>";
 $boolean = true;
 $integer = 12;
 $float = 25.5;
