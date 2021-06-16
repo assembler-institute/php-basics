@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
 <div>
-<h3>Using operators : arithmetic, comparison and logical operators</h3>
-</div>
+<h3>Using Operators : arithmetic, comparison and logical operators</h3>
 <div class="arithmeticOperator">
     <h4>arithmetic operators</h4>
     <h5>
@@ -19,7 +11,7 @@
     $y = 17;
     $z = 3; </br>
     var_dump($x * $z + $y % $z - $y);</br></br>';
-    echo "output :  ";
+    echo "<p>output :  </p>";
     var_dump($x * $z + $y % $z - $y);
     ?>
 </h5>
@@ -38,7 +30,7 @@
     var_dump($x !== $z);</br>
     var_dump($y <> $z);</br>
     var_dump($x <=> $z);</br>';
-    echo "</br>output :  </br>";
+    echo "</br><p>output :  </p></br>";
     var_dump($x == $y);
     echo "</br>";
     var_dump($x !== $z);
@@ -62,7 +54,7 @@ if($currentHour <br 10 || $currentHour > 19 ) {</br>
 if($weekendHour > 14 && $weekend) {</br>
     echo "It is closed. The store opens until 2 pm at weekends.";</br>
 }</br></br>  ';
-echo "output : </br>";
+echo "<p>output : </p></br>";
 $currentHour = 9;
 $weekendHour = 17;
 $weekend = true;
@@ -76,5 +68,5 @@ if($weekendHour > 14 && $weekend) {
 </h5>
 
 </div>
-</body>
+</div>
 </html>

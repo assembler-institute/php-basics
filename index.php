@@ -11,31 +11,51 @@
 <h1 class="heading">PHP Basics</h1>
 </div>
 <div class="main">
-<section class="printFile">
+<section class="printFile fileStyle">
 <?php
 include "print.php";
 ?>
 </section>
-<section class="iteratorsFile">
+<section class="iteratorsFile fileStyle">
     <?php
 include "iterators.php";
 ?>
 </section>
-<section class="operatorsFile">
+<section class="operatorsFile fileStyle">
 <?php
 include "operators.php"
 ?>
 </section>
-<section class="datesFile">
+<section class="datesFile fileStyle">
 <?php
 include "dates.php";
 ?>
 </section>
+<section class="conditionalsFile fileStyle">
+<?php
+include "conditionals.php";
+?>
+</section>
+<section class="typesFile fileStyle">
+<?php
+include "types.php";
+?>
+</section>
+<section class="mathsFile fileStyle">
+<?php
+include "maths.php";
+?>
+</section>
+<section class="stringsFile fileStyle">
+<?php
+include "strings.php";
+?>
+</section>
 </div>
-<div class="footer">
+<footer class="footer">
   <?php
 include "footer.php";
 ?>
-</div>
+</footer>
 </body>
 </html>
