@@ -7,11 +7,7 @@
   box-sizing: border-box;
   /* outline: red solid 2px; */
   font-family: "Exo";
-}
-
-.demo-code {
-  font-family: "Courier New", Courier, monospace;
-  color: lightgreen;
+  transition: 0.4s;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -38,12 +34,56 @@ main {
   background-color: black;
   color: white;
   overflow: scroll;
-  padding: 0px 30px;
+  padding: 30px;
+}
+
+#accordion > * {
+  background: black;
+  border: 2px solid rgb(41, 41, 41);
+}
+
+.btn {
+  color: lightgreen;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: 12px;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.btn-dark:focus,
+.btn:focus {
+  outline: 0;
+  border: 0;
+}
+
+.btn-dark:hover,
+.btn:hover {
+  background-color: transparent;
+}
+
+.card {
+  margin-bottom: -3px;
+}
+
+.card-header:hover {
+  background-color: #23272b;
+}
+
+.collapse,
+.collapsing {
+  background-color: black;
+  border-top: 2px solid lightgreen;
+  padding: 10px;
 }
 
 footer {
   border-top: lightgreen solid 5px;
-  padding: 10px 30px;
+  padding: 10px 45px;
   color: black;
   height: 50px;
 }
@@ -70,5 +110,27 @@ p {
 }
 
 /* -------------------------------------------------------------------------- */
-/*                                   BLOCKS                                   */
+/*                                    BLOCK                                   */
 /* -------------------------------------------------------------------------- */
+.demo-title {
+  font-weight: 600;
+}
+
+.demo-code {
+  font-family: "Courier New", Courier, monospace;
+  color: lightgreen;
+  margin-bottom: 15px;
+  margin-bottom: 0;
+}
+
+.result-code {
+  color: rgb(75, 75, 75);
+}
+
+.code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content-block {
+  margin-bottom: 30px;
+}
