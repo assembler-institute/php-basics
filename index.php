@@ -26,6 +26,10 @@
 			<br/>
 			<a href="src/arrays.php">Arrays</a>
 			<br/>
+			<a href="src/functions.php">Functions</a>
+			<br/>
+			<a href="src/phpinfo.php">PHP Info</a>
+			<br/>
 
     </div>
 </body>
