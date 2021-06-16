@@ -17,6 +17,7 @@
   <title>Printing PHP</title>
 </head>
 <body>
+  <h2>Print PHP</h2>
   <div>
     <p>
       <?php
