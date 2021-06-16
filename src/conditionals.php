@@ -10,6 +10,7 @@
 			<h2>Conditionals PHP</h2>
 			<p>
 				<?php
+					// Checking if today is Monday using conditionals
 					$currentDay = date("D");
 					if ($currentDay == "Mon"){
 						echo "We are on Monday";
@@ -18,6 +19,7 @@
 			</p>
 			<p>
 				<?php
+				 // Checking if we are in October using conditionals
 					$currentMonth = date("m");
 					if ($currentMonth == 10){
 						echo "We are in October";
@@ -26,6 +28,7 @@
 			</p>
 			<p>
 				<?php
+					// Use of elseif conditional
 					$currentMinute = date("i");
 					if ($currentMinute < 10){
 						echo "The current minute is less than 10";

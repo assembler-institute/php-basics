@@ -10,16 +10,19 @@
   <div>
     <p>
       <?php
+        // Defining simple string array
         $myStringArray = array("a", "b", "c", "d");
       ?>
     </p>
     <p>
       <?php
+        // Defining simple number array
         $myNumberArray = array(1, 1.5, 9.4, 10);
       ?>
     </p>
     <p>
       <?php
+        // Defining multidimensional array
         $myMultidimensionalArray = array(
           array("Tommy", 22, 1.70),
           array("Elena", 28, 1.55),
@@ -38,6 +41,7 @@
     </p>
     <p>
       <?php
+        // Getting length array
         $myArray = array("a", "b", "c", "d");
         $myArrayLength = count($myArray);
         echo "My array is ('a', 'b', 'c', 'd') and its length is $myArrayLength";
@@ -45,6 +49,7 @@
     </p>
     <p>
       <?php
+        // Combining two arrays
         $myArray1 = array("a", "b", "c", "d");
         $myArray2 = array("1", "2", "3", "4");
         $myArrayResult = array_merge($myArray1, $myArray2);
@@ -58,6 +63,7 @@
     </p>
     <p>
       <?php
+        // Getting last element of an array
         $myArray = array("a", "b", "c", "d");
         $lastElement = end($myArray);
         echo "The last element of ('a', 'b', 'c', 'd') is $lastElement";
@@ -65,6 +71,7 @@
     </p>
     <p>
       <?php
+        // Pushing new element into an array
         $myArray = array("a", "b", "c", "d");
         $elementToAdd = "e";
         array_push($myArray, $elementToAdd);

@@ -9,12 +9,14 @@
 	<h2>Operators PHP</h2>
 	<div>
 		<?php
+		// +, -, *, / and % operators
 		$a = 5;
 		$b = 1;
 		$sum = $a + $b;
 		$rest = $a - $b;
 		$mult = $a * $b;
 		$div = $a / $b;
+		$mod = $a % $b;
 		?>
     <p>
 			<?php echo "$a + $b = $sum"; ?>
@@ -28,9 +30,14 @@
     <p>
 			<?php echo "$a / $b = $div"; ?>
     </p>
+		<p>
+			<?php echo "$a % $b = $mod"; ?>
+    </p>
+
   </div>
 	<div>
 		<?php
+		// Using comparison operators
 		$a = 5;
 		$b = 3;
 		$c = 5;
@@ -79,6 +86,7 @@
   </div>
 	<div>
 		<?php
+		// Using logical operators
 		$a = 5;
 		$b = 3;
 		$c = 5;

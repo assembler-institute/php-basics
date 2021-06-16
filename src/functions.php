@@ -10,6 +10,7 @@
     <h2>Functions PHP</h2>
     <p>
       <?php
+        // Summing numbers
         function sum($a, $b){
           return $a + $b;
         }
@@ -22,6 +23,7 @@
     </p>
     <p>
       <?php
+        // Multiplicating numbers
         function mult($a, $b){
           return $a * $b;
         }
@@ -34,6 +36,7 @@
     </p>
     <p>
       <?php
+        // Dividing numbers
         function div($a, $b){
           return $a / $b;
         }

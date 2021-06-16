@@ -8,11 +8,13 @@
 <body>
 	<h2>Iterators PHP</h2>
   <div>
+		<!--Using for iteration -->
 		<?php for ($i = 1; $i <= 10; $i++): ?>
 			<p><?php echo $i ?></p>
 		<?php endfor ?>
   </div>
   <div>
+		<!--Using foreach iteration -->
 		<?php
 			$myArray = array(1, 2, 3, 4, 5);
 			foreach($myArray as $myArrayItem) : ?>
@@ -20,6 +22,7 @@
 			<?php endforeach ?>
   </div>
   <div>
+		<!--Using while iteration -->
 		<?php
 			$i = 0;
 			while($i<3 ) : ?>
@@ -32,6 +35,7 @@
 			<?php endwhile ?>
   </div>
 	<div>
+		<!--Using do-while iteration -->
 		<p>
 			<?php
 				$i=2;

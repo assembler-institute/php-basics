@@ -21,6 +21,7 @@
   <div>
     <p>
       <?php
+        // Printing using echo
         $echoVariable = "Printing by echo";
           echo $echoVariable;
       ?>
@@ -29,6 +30,7 @@
   <div>
     <p>
       <?php
+        // Printing using print
         $printVariable = "Printing by print";
         print($printVariable);
       ?>
@@ -37,6 +39,7 @@
   <div>
     <p>
       <?php
+        // Printing using print_r
         $printRVariable = "Printing by print_r";
         print_r($printRVariable);
       ?>
