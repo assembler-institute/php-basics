@@ -24,6 +24,9 @@
 			<br/>
 			<a href="src/strings.php">Strings</a>
 			<br/>
+			<a href="src/arrays.php">Arrays</a>
+			<br/>
+
     </div>
 </body>
 </html>
