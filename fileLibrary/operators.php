@@ -63,7 +63,8 @@ echo nl2br("con && todas las anteriores deben cumplirse\n");
 var_dump (1==2 && 1<2 && 1>2 && 1!=2 && 1<=2);
 
 echo nl2br("\n\n");
-echo nl2br("con || una de las anteriores\n");
+echo nl2br("con || una de las anteriores debe cumplirse\n");
 var_dump (1==2 || 1<2 || 1>2 || 1!=2 || 1<=2);
+
 
 ?>
