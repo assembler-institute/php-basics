@@ -10,7 +10,7 @@
     echo '$x = 235;
     $y = 17;
     $z = 3; </br>
-    var_dump($x * $z + $y % $z - $y);</br></br>';
+    var_dump($x * $z + $y % $z - $y);';
     echo "<p>output :  </p>";
     var_dump($x * $z + $y % $z - $y);
     ?>
@@ -30,7 +30,7 @@
     var_dump($x !== $z);</br>
     var_dump($y <> $z);</br>
     var_dump($x <=> $z);</br>';
-    echo "</br><p>output :  </p></br>";
+    echo "<p>output :  </p>";
     var_dump($x == $y);
     echo "</br>";
     var_dump($x !== $z);
@@ -53,8 +53,8 @@ if($currentHour <br 10 || $currentHour > 19 ) {</br>
 }</br>
 if($weekendHour > 14 && $weekend) {</br>
     echo "It is closed. The store opens until 2 pm at weekends.";</br>
-}</br></br>  ';
-echo "<p>output : </p></br>";
+}</br>';
+echo "<p>output : </p>";
 $currentHour = 9;
 $weekendHour = 17;
 $weekend = true;

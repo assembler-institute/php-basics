@@ -8,53 +8,64 @@
 </head>
 <body>
 <div class="header">
-<h1 class="heading">PHP Basics</h1>
+<h1 class="heading"><a href="index.php">PHP Basics</a></h1>
+<h2 class="phpInfoLink"><a href="phpinfo.php">PHP Info</a></h2>
 </div>
 <div class="main">
 <section class="printFile fileStyle">
 <?php
-include "print.php";
+include "./src/print.php";
 ?>
 </section>
 <section class="iteratorsFile fileStyle">
     <?php
-include "iterators.php";
+include "./src/iterators.php";
 ?>
 </section>
 <section class="operatorsFile fileStyle">
 <?php
-include "operators.php"
+include "./src/operators.php"
 ?>
 </section>
 <section class="datesFile fileStyle">
 <?php
-include "dates.php";
+include "./src/dates.php";
 ?>
 </section>
 <section class="conditionalsFile fileStyle">
 <?php
-include "conditionals.php";
+include "./src/conditionals.php";
 ?>
 </section>
 <section class="typesFile fileStyle">
 <?php
-include "types.php";
+include "./src/types.php";
 ?>
 </section>
 <section class="mathsFile fileStyle">
 <?php
-include "maths.php";
+include "./src/maths.php";
 ?>
 </section>
 <section class="stringsFile fileStyle">
 <?php
-include "strings.php";
+include "./src/strings.php";
+?>
+</section>
+<section class="arraysFile fileStyle">
+<?php
+include "./src/arrays.php";
+?>
+</section>
+<section class="functionsFile fileStyle">
+<?php
+include "./src/functions.php";
 ?>
 </section>
 </div>
 <footer class="footer">
   <?php
-include "footer.php";
+include "./src/footer.php";
 ?>
 </footer>
 </body>

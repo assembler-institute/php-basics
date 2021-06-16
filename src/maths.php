@@ -7,7 +7,7 @@
 $myValue = -12;
 $absoluteValue = abs($myValue);
 echo '$myValue = -12;</br>
-    $absoluteValue = abs($myValue);</br> <p>output</p>';
+    $absoluteValue = abs($myValue);</br> <p>output:</p>';
 echo $absoluteValue;
 ?>
         </h5>
@@ -19,7 +19,7 @@ echo $absoluteValue;
 $myValue = 23.34;
 $roundedValue = ceil($myValue);
 echo '$myValue = 23.34;</br>
-    $roundedValue = ceil($myValue);</br> <p>output</p>';
+    $roundedValue = ceil($myValue);</br> <p>output:</p>';
 echo $roundedValue;
 ?>        
           </h5>
@@ -31,7 +31,7 @@ echo $roundedValue;
 $myArray = array(34, 12, 76, 1, 75, 66);
 $highestValue = max($myArray);
 echo '$myArray = array(34, 12, 76, 1, 75, 66);</br>
-    $highestValue = max($myArray);</br> <p>output</p>';
+    $highestValue = max($myArray);</br> <p>output:</p>';
 echo $highestValue;
 ?>        
           </h5>
@@ -43,7 +43,7 @@ echo $highestValue;
 $myArray = array(34, 12, 76, 1, 75, 66);
 $lowestValue = min($myArray);
 echo '$myArray = array(34, 12, 76, 1, 75, 66);</br>
-    $lowestValue = min($myArray);</br> <p>output</p>';
+    $lowestValue = min($myArray);</br> <p>output:</p>';
 echo $lowestValue;
 ?>        
           </h5>
@@ -53,7 +53,7 @@ echo $lowestValue;
           <h5>
        <?php
 $myRandomNumber = rand(10, 500);
-echo '$myRandomNumber = rand((10, 500));</br> <p>output</p>';
+echo '$myRandomNumber = rand((10, 500));</br> <p>output:</p>';
 echo $myRandomNumber;
 ?>        
           </h5>
