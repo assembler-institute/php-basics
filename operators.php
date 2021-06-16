@@ -28,7 +28,7 @@
     echo "\$intVar3 % \$intVar2 = "; echo $intVar3 % $intVar2; echo "<br>";
 
     // Create a usage example for comparison operators: ==,! =, <,>, <=,> =
-    echo "<H3> - <u>cpmparison operators</u> allows you to loop over a structure using a key iterator</H3>";
+    echo "<H3> - <u>comparison operators</u> allows you to loop over a structure using a key iterator</H3>";
     echo "(\$intVar1 == \$intVar2) => "; var_dump($intVar1 == $intVar2);  echo "<br>";
     echo "(\$intVar1 != \$intVar2) => "; var_dump($intVar1 != $intVar2);  echo "<br>";
     echo "(\$intVar1 < \$intVar2) => "; var_dump($intVar1 < $intVar2);  echo "<br>";
