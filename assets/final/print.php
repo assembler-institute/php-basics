@@ -1,5 +1,5 @@
 <!-- Echo message -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Echo message</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -14,7 +14,7 @@
 </div>
 
 <!-- Print message -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Print message</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -29,7 +29,7 @@
 </div>
 
 <!-- print_r() message -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">print_r() message</h4>
 
     <p class="demo-subtitle">Code:</p>

@@ -1,5 +1,5 @@
 <!-- "Y-m-d" date format -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">"Y-m-d" date format</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -17,7 +17,7 @@
 </div>
 
 <!-- Current date -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Current date</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -33,7 +33,7 @@
 </div>
 
 <!-- Current day -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Current day</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -49,7 +49,7 @@
 </div>
 
 <!-- Current month -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Current month</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -65,7 +65,7 @@
 </div>
 
 <!-- Current minute -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Current minute</h4>
 
     <p class="demo-subtitle">Code:</p>

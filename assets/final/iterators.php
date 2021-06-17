@@ -1,5 +1,5 @@
 <!-- For loop -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">For loop</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -20,7 +20,7 @@
 </div>
 
 <!-- Foreach loop -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Foreach loop</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -41,7 +41,7 @@
 </div>
 
 <!-- While loop -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">While loop</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -68,7 +68,7 @@
 </div>
 
 <!-- Do/while loop -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Do/while loop</h4>
 
     <p class="demo-subtitle">Code:</p>

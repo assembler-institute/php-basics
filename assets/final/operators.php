@@ -1,5 +1,5 @@
 <!-- Arithmetic operators -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Arithmetic operators</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -29,7 +29,7 @@
 </div>
 
 <!-- Comparison operators -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Comparison operators</h4>
 
     <p class="demo-subtitle">Code:</p>
@@ -54,7 +54,7 @@
 </div>
 
 <!-- Logical operators -->
-<div class="col col-12 col-sm-6 col-lg-4 content-block">
+<div class="col col-12 col-lg-6 col-xl-4 content-block">
     <h4 class="demo-title">Logical operators</h4>
 
     <p class="demo-subtitle">Code:</p>

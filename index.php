@@ -100,7 +100,7 @@
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/conditionals.php";
+                        require "./assets/final/conditionals.php";
                         ?>
                     </div>
                 </div>
@@ -210,8 +210,8 @@
         </div>
     </main>
     <footer class="row d-flex justify-content-between align-items-center">
-        <div id="footerLeft" class="col-12 col-sm-6 footer-element">Ricard Garcia</div>
-        <div id="footerRight" class="col-12 col-sm-6 footer-element">Assembler School</div>
+        <div id="footerLeft" class="col-12 col-lg-6 footer-element">Ricard Garcia</div>
+        <div id="footerRight" class="col-12 col-lg-6 footer-element">Assembler School</div>
     </footer>
 
     <!-- Bootstrap JS -->
