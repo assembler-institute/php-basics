@@ -117,7 +117,7 @@
                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/types.php";
+                        require "./assets/final/types.php";
                         ?>
                     </div>
                 </div>
