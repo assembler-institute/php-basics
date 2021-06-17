@@ -5,6 +5,8 @@
     <h5>
       <?php
       // using Date time and format method with the argument "Y-m-d"
+      echo '$currentDate = new DateTime("yesterday");<br>
+      echo "Yesterday was ", $currentDate->format("Y-m-d"), "."; <p>output:</p>';
       $currentDate = new DateTime("yesterday");
       echo "Yesterday was ", $currentDate->format("Y-m-d"), ".";
       ?>
@@ -15,6 +17,8 @@
     <h5>
       <?php
       // getting the current date
+      echo '$currentDate = new DateTime();<br>
+      echo "Today is ", $currentDate->format("jS F Y"), "."; <p>output:</p>';
       $currentDate = new DateTime();
       echo "Today is ", $currentDate->format("jS F Y"), ".";
       ?>
@@ -25,6 +29,8 @@
     <h5>
       <?php
       // getting a current day
+      echo '$currentDate = new DateTime();<br>
+      echo "Today is ", $currentDate->format("jS"), ".";<p>output:</p>';
       $currentDate = new DateTime();
       echo "Today is ", $currentDate->format("jS"), ".";
       ?>
@@ -35,6 +41,8 @@
     <h5>
       <?php
       // getting the current month in numerical format
+      echo '$currentDate = new DateTime();<br>
+      echo "The current month is ", $currentDate->format("n (F)"), ".";<p>output:</p>';
       $currentDate = new DateTime();
       echo "The current month is ", $currentDate->format("n (F)"), ".";
       ?>
@@ -45,6 +53,8 @@
     <h5>
       <?php
       // getting the current minute with leading zeros
+      echo '$currentDate = new DateTime();<br>
+      echo "The current minute is ", $currentDate->format("i"), ".";<p>output:</p>';
       $currentDate = new DateTime();
       echo "The current minute is ", $currentDate->format("i"), ".";
       ?>
@@ -55,6 +65,10 @@
     <h5>
       <?php
       // getting an age 
+      echo '$currentDate = new DateTime();<br>
+      $birthday = new DateTime("1986-08-24");<br>
+      $age = $birthday->diff($currentDate);<br>
+      echo "I am ", $age->y, " years old.";<p>output:</p>';
       $currentDate = new DateTime();
       $birthday = new DateTime("1986-08-24");
       $age = $birthday->diff($currentDate);
