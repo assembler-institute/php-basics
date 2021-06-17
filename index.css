@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600&display=swap');
+ body {
+       margin: 0;
+       background-color: #404b54;
+       /* font-family: 'Zilla Slab', serif; */
+       font-family: 'Baloo Tammudu 2', cursive;
+    }
+    h3 {
+       color:  rgb(153, 201, 245);
+       margin-top: auto;
+    }
+    h4 {
+        color: #c5ea16;
+    }
+    h5 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    p {
+        color: rgb(253 144 194);
+    }
+    .header {
+        background-color:  rgb(97, 172, 243);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70px;
+    }
+    .infoHeader {
+        background-color:  rgb(97, 172, 243);
+    }
+    .heading, .infoHeading{
+        padding: 10px;
+        margin: 0;
+        color: rgb(4, 36, 44);
+    }
+    .heading >a {
+        text-decoration: none;
+    }
+    .infoHeading >a {
+        text-decoration: none;
+        background-color:  rgb(97, 172, 243);
+    }
+    .heading :visited {
+        color: rgb(4, 36, 44);
+    }
+    .infoHeading :visited {
+        color: rgb(4, 36, 44);
+    }
+     .heading :hover {
+        color: rgb(226, 254, 255);
+    }
+     .infoHeading :hover {
+        color: rgb(226, 254, 255);
+    }
+    .phpInfoLink {
+        padding: 10px;
+        color: rgb(226, 254, 255);
+    }
+    .phpInfoLink :visited {
+        color: rgb(226, 254, 255);
+    }
+     .phpInfoLink :hover {
+        color: rgb(8, 35, 184);
+    }
+    .main {
+        color: #e4f3f2f0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fileStyle {
+        border: 1px solid rgb(97, 172, 243);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+        flex: 1 0 28%;
+    }
+    .inWrapper {
+        width: 50%;
+    }
+    .forLoopExample {
+        text-align: center;
+        color: #17c76f;
+    }
+    .wrapper {
+        display: flex;
+    }
+    .footer {
+        color: rgb(34,193,195);
+        text-align: center;
+    }
+   @media only screen and (max-width: 600px) {
+  .fileStyle {
+    flex: 0 0 87%;
+  }
+}

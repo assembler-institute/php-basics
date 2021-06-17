@@ -1,51 +1,34 @@
-`#php` `#basics` `#master-in-software-engineering`
+# 🌱PHP Basics
 
-# PHP Basics <!-- omit in toc -->
+## 👨‍💻 What I learned from this project
+### 1. the basics to program in PHP.
+### 2. what a server-side language is and what it is used for.
+#
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
+
+## Install PHP environment
+####  You can go check the latest version of PHP and download it. https://www.php.net/downloads
+#### XAMPP https://www.apachefriends.org/index.html
+#### MAMP(for Mac) : https://www.mamp.info/en/windows/
+#
+
+
+### ** All your PHP web applications must reside inside htdocs folder!! **
+#
+
+
+## screenshot
+<img width="1440" alt="스크린샷 2021-06-16 22 24 15" src="https://user-images.githubusercontent.com/50446830/122287877-ba1f8480-cef1-11eb-81e9-9f98dc46aa11.png">  
+
+
+## Connect with me:
+<p align="left">
+<a href="https://linkedin.com/in/solaz0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="solaz0824" height="30" width="40" /></a>
+<a href="https://instagram.com/solaz0824" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="solaz0824" height="30" width="40" /></a>
 </p>
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+#
 
-## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
-
-## Requirements
-
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
-## Technologies used
-
-\* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-## Resources
-
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+## Languages and Tools:
+<p><a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
