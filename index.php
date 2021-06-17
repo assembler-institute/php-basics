@@ -134,7 +134,7 @@
                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/maths.php";
+                        require "./assets/final/maths.php";
                         ?>
                     </div>
                 </div>
