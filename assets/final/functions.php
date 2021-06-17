@@ -112,7 +112,8 @@
         }
     }
 
-    operationFunction($num1, $num2, $operation);    </pre>
+    operationFunction($num1, $num2, $operation);
+    </pre>
 
     <p class="demo-subtitle">Result:</p>
     <?php
