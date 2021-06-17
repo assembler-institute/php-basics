@@ -4,6 +4,7 @@
     <h4>value types</h4>
     <h5>
         <?php
+        // using different value types
     $boolType = true;
     $intType = 123;
     $floatType = 3.65;
@@ -11,26 +12,26 @@
     $arrType = array("A"=> array("Apple", "Airplane"), "B"=> array("Brain, Bus"), "C"=> array("Car", "Cow"));
     $objType = (object) array("Apple" => "Red", "Banana" => "Yellow");
     $nullType = NULL;
-    echo '$boolType = true;</br>
-    $intType = 123;</br>
-    $floatType = 3.65;</br>
-    $strType = "It is String type"; </br>
-    $arrType = array("A"=> array("Apple", "Airplane"), "B"=> array("Brain, Bus"), "C"=> array("Car", "Cow"));</br>
-    $objType = (object) array("Apple" => "Red", "Banana" => "Yellow");</br>
-    $nullType = NULL;</br>';
-    echo '$boolType = true;</br> <p>output: </p>';
+    echo '$boolType = true;<br>
+    $intType = 123;<br>
+    $floatType = 3.65;<br>
+    $strType = "It is String type"; <br>
+    $arrType = array("A"=> array("Apple", "Airplane"), "B"=> array("Brain, Bus"), "C"=> array("Car", "Cow"));<br>
+    $objType = (object) array("Apple" => "Red", "Banana" => "Yellow");<br>
+    $nullType = NULL;<br>';
+    echo '$boolType = true;<br> <p>output: </p>';
     var_dump($boolType);
-    echo "</br>";
+    echo "<br>";
     var_dump($intType);
-    echo "</br>";
+    echo "<br>";
     var_dump($floatType);
-    echo "</br>";
+    echo "<br>";
     var_dump($strType);
-    echo "</br>";
+    echo "<br>";
     var_dump($arrType);
-    echo "</br>";
+    echo "<br>";
     var_dump($objType);
-    echo "</br>";
+    echo "<br>";
     var_dump($nullType);
     ?>  
     </h5>

@@ -4,6 +4,7 @@
 <h4>Y-m-d</h4>
 <h5>
   <?php
+  // using Date time and format method with the argument "Y-m-d"
 $currentDate = new DateTime("yesterday");
 echo "Yesterday was ", $currentDate->format("Y-m-d"), ".";
 ?>
@@ -13,6 +14,7 @@ echo "Yesterday was ", $currentDate->format("Y-m-d"), ".";
 <h4>current date with "jS F Y" format</h4>
 <h5>
   <?php
+  // getting the current date
 $currentDate = new DateTime();
 echo "Today is ", $currentDate->format("jS F Y"), ".";
 ?>
@@ -22,6 +24,7 @@ echo "Today is ", $currentDate->format("jS F Y"), ".";
 <h4>current day</h4>
 <h5>
   <?php
+  // getting a current day
 $currentDate = new DateTime();
 echo "Today is ", $currentDate->format("jS"), ".";
 ?>
@@ -31,15 +34,17 @@ echo "Today is ", $currentDate->format("jS"), ".";
 <h4>current month ( numerical format )</h4>
 <h5>
   <?php
+  // getting the current month in numerical format
 $currentDate = new DateTime();
 echo "The current month is ", $currentDate->format("n (F)"), ".";
 ?>
 </h5>
 </div>
 <div class="currentMinutes">
-<h4>current month ( numerical format )</h4>
+<h4>current minute ( leading zeros )</h4>
 <h5>
   <?php
+  // getting the current minute with leading zeros
 $currentDate = new DateTime();
 echo "The current minute is ", $currentDate->format("i"), ".";
 ?>
@@ -49,6 +54,7 @@ echo "The current minute is ", $currentDate->format("i"), ".";
 <h4>birthday and age</h4>
 <h5>
   <?php
+  // getting an age 
 $currentDate = new DateTime();
 $birthday = new DateTime("1986-08-24");
 $age = $birthday->diff($currentDate);

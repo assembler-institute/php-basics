@@ -4,35 +4,38 @@
     <h4>current weekday</h4>
     <h5>
     <?php
+    // getting the current weekday
 $today = new DateTime();
 if ($today->format("l") === "Monday") {
     echo "We are on ", $today->format("l"), ".";
 } else {
-    echo "We are not on Monday.</br>It is ", $today->format("l"), " today.";
+    echo "We are not on Monday.<br>It is ", $today->format("l"), " today.";
 }
 ;
 ?>
     </h5>
     </div>
      <div class="currentMonthName">
-    <h4>current weekday</h4>
+    <h4>current month name</h4>
     <h5>
     <?php
+    // getting the current month name
 $currentMonth = new DateTime();
 $currentMonthName = $currentMonth->format("F");
 if ($currentMonthName === "October") {
     echo "We are in ", $currentMonthName, ".";
 } else {
-    echo "We are not in October.</br>It is ", $currentMonthName, ".";
+    echo "We are not in October.<br>It is ", $currentMonthName, ".";
 }
 ;
 ?>
     </h5>
     </div>
     <div class="doubleCondition">
-    <h4>double condition (current minutes)</h4>
+    <h4>double condition ( current minute )</h4>
     <h5>
      <?php
+     // getting the current minute and set a double condition
 $currentDate = new DateTime();
 $currentMinutes = $currentDate->format("i");
 if ($currentMinutes < 10) {
@@ -49,6 +52,7 @@ if ($currentMinutes < 10) {
     <h4>the current day of the week with switch</h4>
     <h5>
     <?php
+    // using switch to display different messages depending on the current day
 $today = new DateTime();
 $currentDay = $today->format("l");
 switch($currentDay) {
