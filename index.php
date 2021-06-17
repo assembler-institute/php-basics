@@ -151,7 +151,7 @@
                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/strings.php";
+                        require "./assets/final/strings.php";
                         ?>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                 <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/arrays.php";
+                        require "./assets/final/arrays.php";
                         ?>
                     </div>
                 </div>

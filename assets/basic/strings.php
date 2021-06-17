@@ -24,7 +24,7 @@ print "$word1 $word2!";
 echo "<h4>Case sensitive replacement</h4>";
 
 $testString = "A quick fast John jumps over the lazy dog";
-echo str_replace("john", "jaguar", $testString);;
+echo str_replace("john", "jaguar", $testString);
 
 // Case insensitive replacement
 echo "<h4>Case insensitive replacement</h4>";
@@ -37,7 +37,7 @@ echo "<h4>Write text N times</h4>";
 
 $testString = "A quick fast John jumps over the lazy dog";
 $nTimes = 10;
-echo str_repeat("$testString <br>", 10);
+echo str_repeat("$testString <br>", $nTimes);
 
 // Get string length
 echo "<h4>Get string length</h4>";
@@ -47,7 +47,7 @@ echo strlen($testString);
 // Get position of first occurrence
 echo "<h4>Position of first occurrence</h4>";
 
-$repetitiveString = "Tell me if I'm repetitive. Am I repetitive, right? Maybe I'm a bit to much repetitive";
+$repetitiveString = "Tell me if I'm repetitive. I am repetitive, right? Maybe I'm a bit to much repetitive";
 echo stripos($repetitiveString, "repetitive");
 
 // Capitalized string

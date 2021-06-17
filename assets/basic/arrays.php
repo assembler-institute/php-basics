@@ -84,8 +84,8 @@ echo end($array1);
 
 <p>Result:</p>';
 
-$array1 = array(1, 2, 3, 4, 5, 6);
-echo end($array1);
+$testArray = array(1, 2, 3, 4, 5, 6);
+echo end($testArray);
 
 // Add element
 echo "<h4>Add element</h4>";
@@ -98,7 +98,7 @@ echo count($array1);
 
 <p>Result:</p>';
 
-$array1 = array(1, 2, 3, 4, 5, 6);
-array_push($array1, 7);
-echo "<pre class='demo-code'>", print_r($array1, true), "</pre>";
+$testArray = array(1, 2, 3, 4, 5, 6);
+array_push($testArray, 7);
+echo "<pre class='demo-code'>", print_r($testArray, true), "</pre>";
 ?>
