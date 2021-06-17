@@ -59,6 +59,7 @@ main {
 .btn:focus {
   outline: 0;
   border: 0;
+  box-shadow: none;
 }
 
 .btn-dark:hover,
@@ -76,7 +77,7 @@ main {
 
 .collapse,
 .collapsing {
-  background-color: black;
+  background-color: transparent;
   border-top: 2px solid lightgreen;
   padding: 10px;
 }

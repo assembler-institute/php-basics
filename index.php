@@ -66,7 +66,7 @@
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/operators.php";
+                        require "./assets/final/operators.php";
                         ?>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/dates.php";
+                        require "./assets/final/dates.php";
                         ?>
                     </div>
                 </div>

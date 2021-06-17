@@ -3,7 +3,6 @@
 echo "<h4>For loop</h4>";
 
 $maxNum = 5;
-
 for ($i = 0; $i < $maxNum; $i++){
     echo "Number $i hasn't reached $maxNum <br>";
 }
