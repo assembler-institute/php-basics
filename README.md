@@ -2,44 +2,19 @@
 
 # PHP Basics <!-- omit in toc -->
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
-
 > In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
 >
 > What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
 
 ## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
 - [Technologies used](#technologies-used)
 - [Project delivery](#project-delivery)
 - [Resources](#resources)
 
-## Requirements
-
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
 ## Technologies used
 
 \* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
 
 ## Resources
 
