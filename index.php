@@ -185,7 +185,7 @@
                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/functions.php";
+                        require "./assets/final/functions.php";
                         ?>
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                 <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
                     <div class="row card-body">
                         <?php
-                        require "./assets/basic/phpinfo.php";
+                        require "./assets/final/phpinfo.php";
                         ?>
                     </div>
                 </div>
