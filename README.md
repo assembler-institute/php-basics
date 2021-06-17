@@ -2,15 +2,17 @@
 
 # PHP Basics <!-- omit in toc -->
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+> This project is an introduction to PHP language and a basic cheatsheet.
 
 ## Index <!-- omit in toc -->
 
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
+- [How to run](#how-to-run)
 - [Resources](#resources)
+
+## How to run 
+
+To see the result of this introductory cheatsheet to PHP just place this folder inside the root folder of XAMP or MAMP. Then you'll be able to see a collapsable menu divided into different blocks of content.
 
 ## Technologies used
 
