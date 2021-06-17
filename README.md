@@ -6,22 +6,20 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
+> In this repo you will find a php cheat sheet with the basics functionalities
 >
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+> It's a guide to find easily how to develop some basics actions such as basics functions, loops, how to work with strings, etc.
 
 ## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
+- [Prerequisites](#prerequisites)
 - [Repository](#repository)
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
 - [Resources](#resources)
 
-## Requirements
+## Prerequisites
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+- You must install a develop environment like XAMPP or MAMP
 
 ## Repository
 
@@ -34,18 +32,13 @@ To create a fork on GitHub is as easy as clicking the “fork” button on the r
 ## Technologies used
 
 \* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
 ## Resources
 
 - [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
 - [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
 - [XAMPP](https://www.apachefriends.org/es/index.html)
 - [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
+- [MAMP](https://www.mamp.info/en/windows/)
+- [How to install MAMP on Mac](https://www.youtube.com/watch?v=rN7JOs34akU)
 - [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
 - [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
