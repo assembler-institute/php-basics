@@ -92,7 +92,6 @@
         </div>
 
         <h4> Logical operators</h4>
-        <!-- Create an example of use for logical operators: &&, And; ||, Or; ! (NOT); Xor -->
         <div>
             <div>
                 <?php
