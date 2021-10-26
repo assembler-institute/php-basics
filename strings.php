@@ -43,7 +43,8 @@
         <h2>Execute the function that allows you to replace text in a string (case sensitive)</h2>
         <p>
             <?php
-
+            $text = "Hola soy Paul";
+            echo str_replace("Paul", "Lucas", $text);
             ?>
         </p>
     </div>
@@ -52,7 +53,8 @@
         <h2>Execute the function that allows you to replace text in a string (without taking into account upper / lower case)</h2>
         <p>
             <?php
-
+            $text = "Hola soy Paul";
+            echo str_ireplace("Paul", "Leo", $text);
             ?>
         </p>
     </div>
@@ -61,7 +63,7 @@
         <h2>Execute the function that allows you to write a text N times</h2>
         <p>
             <?php
-
+            echo str_repeat("Hola ", 3);
             ?>
         </p>
     </div>
@@ -70,7 +72,8 @@
         <h2>Execute the function that allows to obtain the length of a text string</h2>
         <p>
             <?php
-
+            $text = "Hola soy Paul";
+            echo strlen($text);
             ?>
         </p>
     </div>
@@ -79,7 +82,8 @@
         <h2>Executes the function that allows to obtain the position of the first occurrence of a text within a text string</h2>
         <p>
             <?php
-
+            $text = "Hola soy Paul";
+            echo strpos($text, "Paul");
             ?>
         </p>
     </div>
@@ -88,7 +92,7 @@
         <h2>Execute the function that allows a text string to be capitalized</h2>
         <p>
             <?php
-
+            echo strtoupper("hello world!");
             ?>
         </p>
     </div>
@@ -97,7 +101,7 @@
         <h2>Execute the function that allows you to transform a text string to lowercase</h2>
         <p>
             <?php
-
+            echo strtolower("HEllO WORLD!");
             ?>
         </p>
     </div>
@@ -105,7 +109,7 @@
         <h2>Execute the function that allows to obtain a text substring from the position</h2>
         <p>
             <?php
-
+            echo substr("HEllO WORLD!", -6, 5);
             ?>
         </p>
     </div>
