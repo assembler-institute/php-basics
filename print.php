@@ -11,7 +11,10 @@
 <body>
     <?php echo "<div>ECHO</div>";
     print "<div>PRINT</div>";
-    print_r("<div>PRINT_R</div>");
+    $print_r = "<div>print_r</div>";
+    $bool = true;
+    $result = print_r($print_r, $bool);
+    print_r($result);
     ?>
 </body>
 
