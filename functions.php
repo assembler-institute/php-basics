@@ -42,18 +42,18 @@
         function selectOperation($a, $b, $operator)
         {
             switch ($operator) {
-                case "add":
+                case "+":
                     add($a, $b);
                     break;
-                case "multiply":
+                case "*":
                     multiply($a, $b);
                     break;
-                case "divide":
+                case "/":
                     divide($a, $b);
                     break;
             }
         }
-        // selectOperation();
+        // selectOperation(2, 5, "*");
         ?>
     </div>
 </body>
