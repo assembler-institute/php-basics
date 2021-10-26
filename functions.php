@@ -16,7 +16,6 @@
             $add = $a + $b;
             echo $add;
         }
-        add(1, 2);
         ?>
     </div>
     <div>
@@ -26,7 +25,6 @@
             $multiply = $a * $b;
             echo $multiply;
         }
-        multiply(1, 2);
         ?>
     </div>
     <div>
@@ -36,7 +34,6 @@
             $divide = $a / $b;
             echo $divide;
         }
-        divide(1, 2);
         ?>
     </div>
 
