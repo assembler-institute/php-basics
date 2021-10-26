@@ -13,6 +13,14 @@
     <div>
         <h2>Create a function that given two numbers returns the sum of both</h2>
         <p>
+            <?php
+            function add($num1, $num2)
+            {
+                $result = $num1 + $num2;
+                echo $result;
+            }
+            add(20, 5);
+            ?>
 
         </p>
     </div>
@@ -20,6 +28,14 @@
     <div>
         <h2>Create a function that given two numbers returns the multiplication of both</h2>
         <p>
+            <?php
+            function multiply($num1, $num2)
+            {
+                $result = $num1 * $num2;
+                echo $result;
+            }
+            multiply(20, 5);
+            ?>
 
         </p>
     </div>
@@ -27,6 +43,14 @@
     <div>
         <h2>Create a function that given two numbers returns the division of both</h2>
         <p>
+            <?php
+            function division($num1, $num2)
+            {
+                $result = $num1 / $num2;
+                echo $result;
+            }
+            division(20, 5);
+            ?>
 
         </p>
     </div>
@@ -35,11 +59,34 @@
         <h2>Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.</h2>
         <p>
             <?php
+            function operation($num1, $num2, $operator)
+            {
+                switch ($operator) {
+                    case 'add':
+                        $result = $num1 + $num2;
+                        echo $result;
+                        break;
 
+                    case 'multiply':
+                        $result = $num1 * $num2;
+                        echo $result;
+                        break;
+
+                    case 'divide':
+                        $result = $num1 / $num2;
+                        echo $result;
+                        break;
+
+                    default:
+                        echo "only add, multiply or divide";
+                        break;
+                }
+            }
+            operation(20, 5, "divide");
             ?>
         </p>
     </div>
-    <!--Depending on the type of operation received by parameter, the function will execute the function responsible for performing the operation, since you have previously implemented the function for each operation separately. -->
+
 
 </body>
 
