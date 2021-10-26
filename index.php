@@ -70,12 +70,12 @@
             <span >
                 <?php require "./src/functions.php" ?>
             </span>
+            <div style="background-color:#ffa69e; padding:2rem">
+                <h4>11. Php Info</h4>
+                <span >
+                    <?php require "./src/phpinfo.php" ?>
+                </span>
         </div>
-        <div style="background-color:#ffa69e; padding:2rem">
-            <h4>11. Php Info</h4>
-            <span >
-                <?php require "./src/phpinfo.php" ?>
-            </span>
         </div>
         </div>
     </body>
