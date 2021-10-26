@@ -22,7 +22,6 @@
     </div>
     <div>
         <?php
-        $whatsup = "How are you?";
         echo "Hello $whatsup";
         ?>
     </div>
@@ -34,7 +33,6 @@
     </div>
     <div>
         <?php
-        $hello = "Hello";
         echo str_replace("h", "*", $hello);
         ?>
     </div>

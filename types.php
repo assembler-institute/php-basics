@@ -9,14 +9,6 @@
 </head>
 
 <body>
-    <!-- Define a new variable and assign a value to each of the following types:
-boolean
-integer
-float
-string
-array
-object
-NULL -->
 
     <div>
         <?php

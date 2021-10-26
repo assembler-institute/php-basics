@@ -39,7 +39,7 @@
 
     <div>
         <?php
-        function selectoperation($a, $b, $operator)
+        function selectOperation($a, $b, $operator)
         {
             switch ($operator) {
                 case "add":
@@ -53,7 +53,7 @@
                     break;
             }
         }
-        // selectoperation();
+        // selectOperation();
         ?>
     </div>
 </body>
