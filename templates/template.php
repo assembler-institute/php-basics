@@ -1,4 +1,7 @@
-<?php include("../includes/a_config.php"); ?>
+<?php
+    require_once("../config/config.php");
+    include("../includes/a_config.php");
+?>
 <!DOCTYPE html>
     <head>
         <?php include("../includes/head-tag-contents.php");?>
