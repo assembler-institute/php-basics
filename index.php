@@ -1,14 +1,14 @@
 <?php
     require_once("config/config.php");
+    include(ROOT_PATH . "includes/a_config.php");
 ?>
-<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php include("includes/head-tag-contents.php");?>
+    <?php include(ROOT_PATH . "includes/head-tag-contents.php");?>
 </head>
 <body>
-    <?php include("includes/nav.php");?>
+    <?php include(ROOT_PATH . "includes/nav.php");?>
     <main class="main">
             <div class="container" id="main-content">
                 <div class="container-link">
@@ -22,6 +22,6 @@
                 </div>
             </div>
         </main>
-        <?php include("includes/footer.php");?>
+        <?php include(ROOT_PATH . "includes/footer.php");?>
 </body>
 </html>
