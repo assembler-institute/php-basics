@@ -23,7 +23,7 @@ $textThree = ['This ', 'is ', 'using ', '"print_r" '];
                 <div class="title">
                     <h1>ITERATORS</h1>
                 </div>
-                <a href="index.php" class="item">
+                <a href="../index.php" class="item">
                     🏠
                 </a>
                 <a href="print.php" class="item">

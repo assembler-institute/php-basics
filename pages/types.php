@@ -34,7 +34,7 @@ $objectParam = 'text';
                 <div class="title">
                     <h1>TYPES</h1>
                 </div>
-                <a href="index.php" class="item">
+                <a href="../index.php" class="item">
                     🏠
                 </a>
                 <a href="print.php" class="item">

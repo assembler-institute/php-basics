@@ -27,7 +27,7 @@ function numbers($a = 0, $b = 100)
                 <div class="title">
                     <h1>ARRAYS</h1>
                 </div>
-                <a href="index.php" class="item">
+                <a href="../index.php" class="item">
                     🏠
                 </a>
                 <a href="print.php" class="item">
