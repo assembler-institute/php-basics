@@ -10,13 +10,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisite
 
+- Install a local development environment. As PHP is a scripting language, it needs an interpreter that understands and runs the code. In this PHP project, I use XAMPP as it is up-to-date, easy to use, cross-platform and open source.
+- Install a code editor to help me writing my code. The code editor I have been using is VS Code.
+
 ### Installation
 
-- Install XAMPP
+- Install PHP environment: XAMPP
+- All PHP web applications must reside inside htdocs folder insinde xampp folder.
 
 ### Technologies used
 
 - PHP
+- HTML
+- CSS
 
 ## Resources
 
