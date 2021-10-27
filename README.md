@@ -1,51 +1,44 @@
-`#php` `#basics` `#master-in-software-engineering`
+# PHP-MyBasics
 
-# PHP Basics <!-- omit in toc -->
+This is a forked repository from "Assembler School School of Software Engineering".
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+If you want to see the steps of the project go to:
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+[PHP-My Basics GitHub](https://github.com/E-Hidalgo/PHP-MyBasics)
+## Acknowledgements
 
-## Index <!-- omit in toc -->
+This project was thought to work with PHP basics and get an overall idea about how it works.
+At the same time, I continued programming in VSCode, and worked with custom styles for this project.
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+ - [PHP](https://www.php.net/)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-## Requirements
+  
+## Authors
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+- [@E-Hidalgo](https://github.com/E-Hidalgo/)
 
-## Repository
+  
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/E-Hidalgo)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enrique-hidalgo-rosa-de-carvalho-b17aa915a/)
 
-First of all you must fork this project into your GitHub account.
+  
+![Logo](https://assets.website-files.com/5d7ac47d34aefe1ecf290ce6/5d7ac68da9740c393a589ee7_logo_org_1.png)
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+    
+## Commits in my GitHub
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+In case you want to see all the commits of the project, click here:
 
-## Technologies used
+[PHP-My Basics GitHub](https://github.com/E-Hidalgo/PHP-MyBasics)
 
-\* PHP
+  
+## Tech Stack
 
-## Project delivery
+**Client:** PHP, CSS
 
-To deliver this project you must follow the steps indicated in the document:
+**Server:** XAMPP, PHP server extension in VSCode
 
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-## Resources
-
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+  
