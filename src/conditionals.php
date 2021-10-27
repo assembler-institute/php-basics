@@ -93,59 +93,15 @@ if ($checkMinute < 10) {
 <em><u>code:</u></em>
             
             <span style="color: blue;">
-$todayIs = date('l');
-switch (todayIs) {
-    case 'Monday':
-        echo "todayIs";
-        break;
-    case 'Tuesday':
-        echo "todayIs";
-        break;
-    case 'Wednesday':
-        echo "todayIs";
-        break;
-    case 'Thursday':
-        echo "todayIs";
-        break;
-    case 'Friday':
-        echo "todayIs";
-        break;
-    case 'Saturday':
-        echo "todayIs";
-        break;
-    case 'Sunday':
-        echo "todayIs";
-        break;
-}
+
+
             </span>
         </pre>
 <em><u>Result:</u></em>
         <i>
         <?php
-$todayIs = date('l');
-switch ($todayIs) {
-    case 'Monday':
-        echo "$todayIs";
-        break;
-    case 'Tuesday':
-        echo "$todayIs";
-        break;
-    case 'Wednesday':
-        echo "$todayIs";
-        break;
-    case 'Thursday':
-        echo "$todayIs";
-        break;
-    case 'Friday':
-        echo "$todayIs";
-        break;
-    case 'Saturday':
-        echo "$todayIs";
-        break;
-    case 'Sunday':
-        echo "$todayIs";
-        break;
-}
+
+
         ?>
         </i>
 </div>
