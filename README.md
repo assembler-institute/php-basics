@@ -1,45 +1,28 @@
 `#php` `#basics` `#master-in-software-engineering`
 
-# PHP Basics <!-- omit in toc -->
+# PHP Basics
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+The main objective of this project is to learn the basics of PHP as well as how a server-side-language works. In particular, this work will be represented as a library of functionalities which will display different features of PHP such as print, iterators, operators, dates, conditionals, types, maths, strings, arrays, functions, and phpinfo.
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+## Getting Started
 
-## Index <!-- omit in toc -->
+These instructions will get you a copy of the project up and running on your local machine.
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+### Prerequisite
 
-## Requirements
+- Install a local development environment. As PHP is a scripting language, it needs an interpreter that understands and runs the code. In this PHP project, I use XAMPP as it is up-to-date, easy to use, cross-platform and open source.
+- Install a code editor to help me writing my code. The code editor I have been using is VS Code.
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+### Installation
 
-## Repository
+- Install PHP environment: XAMPP
+- All PHP web applications must reside inside htdocs folder insinde xampp folder.
 
-First of all you must fork this project into your GitHub account.
+### Technologies used
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
-## Technologies used
-
-\* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+- PHP
+- HTML
+- CSS
 
 ## Resources
 
