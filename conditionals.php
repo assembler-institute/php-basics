@@ -41,3 +41,21 @@ if ($t < "10") {
 
 <!-- Create a switch type control structure to display a different message depending on the current day of the week.
 You can write any type of message, because the important thing is that you understand how it works and in what cases you can use it. -->
+</br>   
+<?php
+$d = date("l");
+
+switch ($d) {
+  case "Monday":
+    echo "Today is Monday";
+    break;
+  case "Tuesday":
+    echo "Today is Tuesday";
+    break;
+  case "Wednesday":
+    echo "Today is Wednesday";
+    break;
+  default:
+    echo "Todays is from Thursday to Sunday";
+}
+?>
