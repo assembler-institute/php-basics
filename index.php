@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PHP Document</title>
     </head>
-    <body style="background-color:white;">
-        <div style="">
-            <div style="margin:0rem">
+    <body style="background-color:white; margin:0rem">
+        <div style="margin:0rem">
+        <div>
             <h3 style="color: black;text-align: center"><em><u>ADVICE: THIS IS MY FIRST PHP TEST.<br />PLEASE, DON´T JUDGE ME!!.</u></em></h3>
         </div>
         <div style="background-color:#ffa69e; padding:2rem">
@@ -19,19 +19,19 @@
         </div>
         <div style="background-color:#faf3dd; padding:2rem">
             <h4>2. Iterators</h4>
-            <span >
+            <span>
                 <?php require "./src/iterators.php" ?>
             </span>
         </div>
         <div style="background-color:#b8f2e6; padding:2rem">
             <h4>3. Operators</h4>
-            <span >
+            <span>
                 <?php require "./src/operators.php" ?>
             </span>
         </div>
         <div style="background-color:#aed9e0; padding:2rem">
             <h4>4. Dates</h4>
-            <span >
+            <span>
                 <?php require "./src/dates.php" ?>
             </span>
         </div>
@@ -43,13 +43,13 @@
         </div>
         <div style="background-color:#ecfadc; padding:2rem">
             <h4>6. Types of variables and data</h4>
-            <span >
+            <span>
                 <?php require "./src/types.php" ?>
             </span>
         </div>
         <div style="background-color:#b8d5f2; padding:2rem">
             <h4>7. Maths</h4>
-            <span >
+            <span>
                 <?php require "./src/maths.php" ?>
             </span>
         </div>
@@ -59,9 +59,9 @@
                 <?php require "./src/strings.php" ?>
             </span>
         </div>
-        <div style="background-color:#665e73; padding:2rem">
+        <div style="background-color:#b8f2e6; padding:2rem">
             <h4>9. Arrays</h4>
-            <span >
+            <span>
                 <?php require "./src/arrays.php" ?>
             </span>
         </div>
@@ -70,12 +70,12 @@
             <span >
                 <?php require "./src/functions.php" ?>
             </span>
-            <div style="background-color:#ffa69e; padding:2rem">
-                <h4>11. Php Info</h4>
-                <span >
-                    <?php require "./src/phpinfo.php" ?>
-                </span>
         </div>
+        <div style="background-color:#ffa69e; padding:2rem">
+            <h4>11. Php Info</h4>
+            <span>
+                <?php require "./src/phpinfo.php" ?>
+            </span>
         </div>
         </div>
     </body>

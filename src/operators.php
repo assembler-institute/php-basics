@@ -4,7 +4,7 @@
     <div style="padding-bottom: 3rem">
         <b>3.1 Create an example of use for arithmetic operators: +, -, *, /, and%</b>
         <pre>
-            <em><u>code:</u></em>
+<em><u>code:</u></em>
             
             <span style="color: blue;">
                 $sum = 6 + 2;
@@ -54,7 +54,7 @@ $b = 2;
 ?>
 </div>
 
-<div style="padding-bottom: 3rem">
+<div style="padding-bottom: 2rem">
     <b>3.3 Create an example of use for logical operators: &&, And; ||, Or; ! (NOT); Xor</b>
     <pre>
 <em><u>code:</u></em>

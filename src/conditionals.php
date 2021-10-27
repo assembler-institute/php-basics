@@ -86,7 +86,7 @@ if ($checkMinute < 10) {
         </i>
 </div>
 
-<div style="padding-bottom: 3rem">
+<div style="padding-bottom: 2rem">
         <b>5.4 Create a switch type control structure to display a different message depending on the current day of the week.</b>
 
         <pre>

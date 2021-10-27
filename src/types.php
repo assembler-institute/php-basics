@@ -25,7 +25,7 @@ echo $modulus = 6 % 2;
 ?>
     </i>
 </div>
-<div style="padding-bottom: 3rem">
+<div style="padding-bottom: 2rem">
         <b>6.1 Define a new variable and assign a value for every type:
 </b>
         <pre>

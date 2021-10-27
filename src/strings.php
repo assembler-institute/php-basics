@@ -188,7 +188,7 @@ echo strtolower("I think my food is now cold...")
     </i>
 </div>
 
-    <div style="padding-bottom: 3rem">
+    <div style="padding-bottom: 2rem">
         <b>8.11 Execute the function that allows to obtain a text substring from the position.</b>
         <pre>
 <em><u>code:</u></em>

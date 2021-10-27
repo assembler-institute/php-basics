@@ -68,7 +68,7 @@ echo $lowestValue = min(0, 2, 6, 33);
     </i>
 </div>
 
-<div style="padding-bottom: 3rem">
+<div style="padding-bottom: 2rem">
     <b>7.5 Define a variable whose value is the result of the function that returns a random number</b>
     <pre>
 <em><u>code:</u></em>

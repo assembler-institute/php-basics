@@ -77,7 +77,7 @@ print_r($month);
     </i>
 </div>
 
-    <div style="padding-bottom: 3rem">
+    <div style="padding-bottom: 2rem">
         <b>4.5 Get the current minute with leading zeros (00 - 59)</b>
         <pre>
 <em><u>code:</u></em>

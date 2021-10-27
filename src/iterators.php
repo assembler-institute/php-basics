@@ -89,7 +89,8 @@ endwhile;
     </i>
     </div>
 
-    <div style="">
+    <div style="padding-bottom:2rem">
+">
         <b>2.4 Generate a snippet that uses do while</b>
         <pre>
 <em><u>code:</u></em> 
