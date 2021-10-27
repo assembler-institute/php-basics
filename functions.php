@@ -40,7 +40,10 @@
             break;
         case "/":
           return "You selected a divison {$a}/{$b} = " . $a/$b;
-            break;        
+            break;
+        default:
+          return "You forgot to select an operator or to input some data";
+          break;       
     };
   };
   // print_r($operator_function(10,5,"*"));
@@ -67,4 +70,19 @@ Operator: <br>
   $input2= intval($_POST["input2"]);
   echo $operator_function($input1,$input2,$_POST["operator"]);
   };
+
+  //   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+  //     // collect value of input field
+  //     $data = $_REQUEST["operator"];
+    
+  //     if (empty($data)) {
+  //         echo "data is empty";
+  //     } else {
+  //         echo $data;
+  //     }
+  // }
+
+  // // Closing the connection.
+  // $conn->close();
 ?>
