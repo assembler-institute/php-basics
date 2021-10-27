@@ -1,29 +1,22 @@
 `#php` `#basics` `#master-in-software-engineering`
 
-# PHP Basics <!-- omit in toc -->
+# PHP Basics
 
-The main objectives of this project is to learn the basics of PHP as well as how a server-side-language works. In particular, this work will be represented as a library of functionalities which will display different features of PHP such as print, iterators, operators, dates, conditionals, types, maths, strings, arrays, functions, and phpinfo.
+The main objective of this project is to learn the basics of PHP as well as how a server-side-language works. In particular, this work will be represented as a library of functionalities which will display different features of PHP such as print, iterators, operators, dates, conditionals, types, maths, strings, arrays, functions, and phpinfo.
 
-## Index <!-- omit in toc -->
+## Getting Started
 
-## Requirements
+These instructions will get you a copy of the project up and running on your local machine.
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+### Prerequisite
 
-## Installation
+### Installation
 
 - Install XAMPP
 
-## Technologies used
+### Technologies used
 
-\* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+- PHP
 
 ## Resources
 
