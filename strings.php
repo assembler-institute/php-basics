@@ -95,8 +95,8 @@
 	<?php
 	// Execute the function that allows a text string to be capitalized
 
-	$str = "Betelgeuse";
-	echo strtoupper($str);
+	$str = "Betelgeuse my heart.";
+	echo ucwords($str);
 	?>
 
 	<p class="exercise">10. Execute the function that allows you to transform a text string to lowercase.</p>
@@ -104,7 +104,7 @@
 	<?php
 	// Execute the function that allows you to transform a text string to lowercase
 
-	$str = "Betelgeuse";
+	$str = "Betelgeuse My Heart.";
 	echo strtolower($str);
 	?>
 
