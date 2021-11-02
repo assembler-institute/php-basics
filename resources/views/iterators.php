@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iterators</title>
-    <link rel="stylesheet" href="../assets/styles.css">
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <?php
 $br = '<br/>';
@@ -16,14 +16,42 @@ $letters = ['q', 'w', 'e', 'r', 't', 'y'];
 $textThree = ['This ', 'is ', 'using ', '"print_r" '];
 ?>
 
+<?php
+session_start();
+
+if (!isset($_SESSION['userName'])) {
+    header('Location: ../../public/index.php ');
+    define("ERRORMSG", '<script language="javascript"> alert("This is a private section, please login");</script>');
+    setcookie("NotLoggedCookie", ERRORMSG, time() + 1, "/");
+    exit();
+};
+$userName = $_SESSION['userName'];
+?>
+
 <body>
     <div id="header" class="header">
+        <div id="userlogin" class="userlogin">
+            <div id="box" class="box">
+                <div class="info">
+                    <?php
+                    echo $userName;
+                    ?>
+                </div>
+                <div>
+
+                    <form method="post" id="form" action="../../app/close_session.php">
+                        <input class="btn" type="submit" value='Logout'>
+                    </form>
+
+                </div>
+            </div>
+        </div>
         <div id="flex" class="flex">
             <div id="box" class="box">
                 <div class="title">
                     <h1>ITERATORS</h1>
                 </div>
-                <a href="../index.php" class="item">
+                <a href="panel.php" class="item">
                     🏠
                 </a>
                 <a href="print.php" class="item">
@@ -53,13 +81,13 @@ $textThree = ['This ', 'is ', 'using ', '"print_r" '];
                 <a href="functions.php" class="item">
                     FUNCTIONS
                 </a>
-                <a href="https://www.php.net/" class="item">
+                <a href="info.php" class="item">
                     PHP-INFO
                 </a>
             </div>
         </div>
     </div>
-    <div id="main">
+    <div class="main">
         <div id="flex" class="flex">
             <div id="box" class="box">
                 <div class="title">

@@ -29,7 +29,7 @@ First of all you must fork this project into your GitHub account.
 
 To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+<img src="https://docs.github.com/Resources/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
 
 ## Technologies used
 
@@ -43,7 +43,7 @@ To deliver this project you must follow the steps indicated in the document:
 
 ## Resources
 
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
+- [What can PHP do?](info.phpmanual/es/intro-whatcando.php)
 - [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
 - [XAMPP](https://www.apachefriends.org/es/index.html)
 - [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)

@@ -3,20 +3,27 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400,600,700,900&display=swap");
 
 html {
+  font-family: Raleway;
   scroll-behavior: smooth;
-  background-image: url("./img/aut.gif");
+  background-image: url("./assets/img/aut.gif");
   background-repeat: no-repeat;
   background-color: black;
   background-size: cover;
 }
-.cursor {
-  cursor: pointer;
-}
-.header {
-  cursor: pointer;
-}
+
 .header .box {
   min-height: 10vh;
+}
+
+.main {
+  margin: 10px 30px;
+}
+
+.userlogin .box {
+  margin: 0px 40px;
+  min-height: 3vh;
+  max-width: inherit;
+  justify-content: flex-end;
 }
 .flex {
   display: flex;
@@ -57,6 +64,18 @@ html {
   font-family: monospace;
   color: rgb(221, 202, 118);
   text-align: left;
+}
+.btn {
+  outline: rgb(65, 12, 12) solid 1px;
+  color: rgb(221, 202, 118);
+  margin: 0px 20px;
+  background-color: rgba(119, 60, 37, 0.459);
+  padding: 0.5% 2%;
+  font-size: 0.7rem;
+  cursor: pointer;
+  text-align: center;
+
+  height: min-content;
 }
 
 .item {
