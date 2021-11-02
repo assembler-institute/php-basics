@@ -84,7 +84,7 @@ $userName = $_SESSION['userName'];
             <div id="box" class="box">
                 <div class="title">
                     <?php
-                    echo '<h2>Wellcome ' . $userName . ' !!</h2>';
+                    echo '<h2>Welcome ' . $userName . ' !!</h2>';
                     ?>
                 </div>
                 <div class="info">

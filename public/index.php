@@ -24,10 +24,10 @@
         <div id="flex" class="flex">
             <div id="box" class="box">
                 <div class="title">
-                    <h2>Wellcome!!</h2>
+                    <h2>Login!!</h2>
                 </div>
                 <div class="info">
-                    <h2>Login</h2>
+
                     <form method="post" id="form" action="../app/validate.php">
 
                         <h4>User Name</h4>
