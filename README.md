@@ -23,4 +23,4 @@ The main folder stores all the first steps with php, how to use print, strings, 
 
 Each file contains the syntax and comments of how to do the exercise, and the examples are displayed in html.
 
-<h2><a href="https://github.com/LuisMM24/PHP_basics">Link of my repo with the real commits</a></h2>
+<h2><a href="https://github.com/LuisMM24/PHP_basics">Link to my repo with the actual commits</a></h2>
