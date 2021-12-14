@@ -12,40 +12,15 @@
 
 ## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+Hi, this is the readme for the php basics project, in this document i'll write about the things im doing, and how i do it.
+First, to start this project, i recently installed Xampp, running the webserver 'Apache'
 
-## Requirements
+I created the repo in htdocs section.
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+<h2> how the project Work</h2>
 
-## Repository
+The main folder stores all the first steps with php, how to use print, strings, arrays, functions, operations, etc.
 
-First of all you must fork this project into your GitHub account.
+Each file contains the syntax and comments of how to do the exercise, and the examples are displayed in html.
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
-
-## Technologies used
-
-\* PHP
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-## Resources
-
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+<h2><a href="https://github.com/LuisMM24/PHP_basics">Link of my repo with the real commits</a></h2>
