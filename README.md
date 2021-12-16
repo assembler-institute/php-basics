@@ -1,51 +1,49 @@
-`#php` `#basics` `#master-in-software-engineering`
+# PHP Basics
 
-# PHP Basics <!-- omit in toc -->
+This project works as a cheatsheet for PHP Basic functionalities
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Getting Started
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+Run this project to see examples of the main and most usede PHP functionalities. The project is divided by topics in and each one has examples and its outputs.
 
-## Index <!-- omit in toc -->
+### Prerequisites
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+To run this project you need to have configured PHP enviroment using e.g Xammp.
 
-## Requirements
+```
+PHP is widely used to develop with a XAMPP environment which is basically a stack of web technologies such as web server, php interpreter and a MariaDB database.
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+```
 
-## Repository
+### Installing
 
-First of all you must fork this project into your GitHub account.
+A step by step series of examples that tell you how to get a development env running
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+```
+Since PHP is designed for the web it requires a web server. So to give an easier approach to install all these services at once and across Linux, Mac and Windows operating systems the Apache Friends created XAMPP 
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+Install Xamp: 
 
-## Technologies used
+ [Xamp](https://www.apachefriends.org/index.html)
 
-\* PHP
+```
 
-## Project delivery
+## Built With
 
-To deliver this project you must follow the steps indicated in the document:
+* [XAMP/APCHE](https://www.apachefriends.org/index.html) - Xammp/Apache
 
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+## Contributing
 
-## Resources
+Please read [ASSEMBLER SCHOOL OF SOFTWARE ENGINEERING](https://github.com/assembler-school/php-basics) for details.
+## Authors
 
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+* **Marcel Durgante**
+## License
+
+This project is licensed under the MIT License 
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* Assembler School of Software Engineering
