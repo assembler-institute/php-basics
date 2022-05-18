@@ -1,45 +1,30 @@
 `#php` `#basics` `#master-in-software-engineering`
 
-# PHP Basics <!-- omit in toc -->
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+# PHP Basic Exercises
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+This is a pill of PHP basic exercises
 
-## Index <!-- omit in toc -->
+## Getting Started
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+First we installed XAAMP to provide a web server which it runs PHP. After that, we did the exercises following basicallytwo resources: https://www.w3schools.com/php/default.asp and https://www.php.net/manual/en/
 
-## Requirements
+### Installing
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+We have installed XAAMP (https://www.apachefriends.org/index.html) to provide a web server environment which it runs PHP. 
 
 ## Technologies used
 
 \* PHP
 
-## Project delivery
 
-To deliver this project you must follow the steps indicated in the document:
+## Authors
 
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+* **Jose Cuevas** - https://github.com/jose-cuevas
+
+## Acknowledgments
+
+Acknowledgements to all my teachers and classmates at Assembler Institute of Technology 
 
 ## Resources
 
