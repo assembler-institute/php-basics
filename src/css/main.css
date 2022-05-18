@@ -1,0 +1,15 @@
+.body {
+    background: #ffffff;
+}
+.header {
+    background: #4a009a;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    background: whitesmoke;
+    padding: 10px;
+}
