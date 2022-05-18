@@ -1,51 +1,42 @@
 `#php` `#basics` `#master-in-software-engineering`
 
-# PHP Basics <!-- omit in toc -->
+# PHP Basics - Assambler proejct
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+This is a project pill given as a task in Assembler institute of Technology. In this project we examine the notions of the famous PHP language which is so used in the world of web development.
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+## Getting Started
 
-## Index <!-- omit in toc -->
+There's not too much to it, just make sure your machine is supporting a php development environment, if not you can download any of your favourite integrated development environment software such as [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/en/) if you are using Windows OS.
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
 
-## Requirements
+### Installing
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+After cloning make sure you copy all the files into htdocs in your local machine so you can see the output in your browser.
+Run your localhost and then the relative path of the file, for example:
 
-## Repository
 
-First of all you must fork this project into your GitHub account.
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+```
+http://localhost:8080/arrays.php
+```
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+or
 
-## Technologies used
+```
+http://localhost:8080/functions.php
+```
 
-\* PHP
+## Authors
 
-## Project delivery
+* **Sefi Cohen** - *Initial work* - [seficohen1](https://github.com/seficohen1)
 
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
 
-## Resources
+## License
 
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+<a href="https://gitmoji.dev">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
