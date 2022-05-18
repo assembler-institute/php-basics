@@ -1,5 +1,5 @@
 <?php
-// dates
+// dates.
 
 $dateTime = new DateTime(); // getting an instance of DateTime object
 echo $dateTime->format('Y-m-d'); //formating the instance to year-month-day format
