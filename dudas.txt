@@ -1,0 +1,4 @@
+En el types.php, cuando hablan de objeto se refieren a POO
+o a un objeto como los de JS {key: value}
+
+En strings.php no entiendo la diferncia de los ejercicios del str_replace
