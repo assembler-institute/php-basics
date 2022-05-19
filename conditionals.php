@@ -70,7 +70,7 @@
         <legend>Create a switch type control </legend>
         <div class="container" id="container"> 
         <?php
-            echo "<li>Today is " . date("N") . "</li><br>";
+            echo "<li>Today is " . date("l") . "</li><br>";
 
         ?>
         <?php
@@ -78,7 +78,7 @@
 
             if ($t <= "2") {
             echo "<li>We are starting the week</li>";
-            } elseif ($t = "3") {
+            } elseif ($t <= "3") {
             echo "<li>We are in the middle of the week</li>";
             } else {
             echo "<li>We are ending the week</li>";
