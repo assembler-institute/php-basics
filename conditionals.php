@@ -52,15 +52,15 @@
         <div class="container" id="container"> 
 
         <?php
-        echo "<li>Current minute is: " . date("H") . "</li><br>";
-        $t = date("H");
+        echo "<li>The current minute is " . date("i</li>") . "</li><br>";
+        $t = date("i");
 
         if ($t < "10") {
         echo "the current minute is less than 10</li>";
             } elseif ($t > "15") {
                 echo "<li>the current minute is more than 15</li>";
             } else {
-                echo "Have a good night!";
+                echo "<li>does not meet any conditions</li>";
             }
             ?>
         </div>
