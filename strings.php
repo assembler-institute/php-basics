@@ -26,7 +26,7 @@ echo str_replace($word, $replace, $sentence) . "\n";
 $isentence = "Thanks god it's Monday, I hate monday";
 $iword = "Monday";
 $ireplace = "Friday";
-echo str_replace($iword, $ireplace, $isentence) . "\n";
+echo str_ireplace($iword, $ireplace, $isentence) . "\n";
 
 // Execute the function that allows you to write a text N times
 echo str_repeat("❤️", 10) . "\n";
