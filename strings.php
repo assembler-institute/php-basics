@@ -4,7 +4,7 @@
 
 
 // Print text string
-print 'This is a texft string.';
+print 'This is a text string.';
 
 echo '<br><br>';
 
