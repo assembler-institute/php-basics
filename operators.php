@@ -80,7 +80,7 @@ if ($x == $y and 1 == 1) {
 $x = 10;
 $y = 20;
 
-if ($x == $y || 1 == 1) {
+if ($x == $y || 1 == 1) { /* es igual que Or */
     echo "True";
 }
 
