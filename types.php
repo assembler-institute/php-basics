@@ -216,4 +216,29 @@ public function set_game($name,$price,$photo){
 
 $game->set_game('Overwatch', 44.99, 'overwatch.jpg'); */
 
+
+
+
+
+/* NULL */
+
+
+//Null constant
+/* $x = null;
+var_dump($x); */
+/* var_dump(is_null($x)); */
+/* var_dump($x === null); */
+
+
+/* Otro ejemplo: */
+
+/* $x = 123;
+var_dump($x);
+
+unset($x);  //Esto destroza la variable
+
+var_dump($x); */
+
+
+
 ?>
