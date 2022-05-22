@@ -49,3 +49,8 @@ To deliver this project you must send a Pull Request as explained in the Student
 - [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
 - [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
 - [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+
+
+
+Note:
+All the comments are spanish/english just to save this code and use it in the future.
