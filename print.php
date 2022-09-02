@@ -1,6 +1,8 @@
 <?php
+#Las comills dobles nos permiten imprimir las variables dentro de esas comilllas las simples NO.
 //Print solo imprime un resultado 
-print "Hola mundo";
+$nombre='Lokesh';
+print "Hola, $nombre";
 echo '<br><br>';
 
 // Acepta más de un resultado (a través de coma)
