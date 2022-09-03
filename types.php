@@ -43,8 +43,13 @@ echo $diasSemana[5]; /* Resultado: Sábado */
 
 print '<br>';
 print "<br>--- [ Object ] --- <br>";
+class abc {
+}
 
+$date = new DateTime();
+$string = new abc; 
 
+var_dump($date);
 
 print '<br>';
 print "<br>--- [ Constantes ] --- <br>";

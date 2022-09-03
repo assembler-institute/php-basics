@@ -1,5 +1,6 @@
 <?php
 print "--- [ Operadores Aritméticos ] --- <br>";
+
 /* 
 + Suma
 - Resta
@@ -7,6 +8,7 @@ print "--- [ Operadores Aritméticos ] --- <br>";
 / Divi
 % modulo(residuo)
 */
+
 $numero = 10;
 $numero2 = 20;
 echo $numero+$numero2;
@@ -15,6 +17,7 @@ echo $resul = $numero2 /= 2;
 
 print '<br>';
 print "<br>--- [ Operadores de Compración ] --- <br>";
+
 /*
 == igual en valor 
 === igual en valor y tipo de dato
@@ -25,6 +28,7 @@ print "<br>--- [ Operadores de Compración ] --- <br>";
 >=
 <=
 */
+
 $comprarAlcohol = 18;
 if($comprarAlcohol>=18){
     echo 'Tienes edad para comprarlo...';
@@ -43,12 +47,14 @@ if($booln != $booln1){
 
 print '<br>';
 print "<br>--- [ Operadores Lógicos ] --- <br>";
+
 /* Operadores 
 $$ And
 OR, || or
 XOR 
 ! negacion
 */
+
 $nombre = 'Pepe';
 // Solo se tiene que cumplir una condición, si se cumple ambos.. no se ejecuta
 if($comprarAlcohol>= 18 XOR $nombre == 'Pepe'){
@@ -59,6 +65,7 @@ if($comprarAlcohol>= 18 XOR $nombre == 'Pepe'){
 
 
 print "<br>--- [ Operadores de Asignación ] --- <br>";
+
 /* 
 = igual o de asignacion
 += propio valor + algun valor de asignacion (Ex. $numero += 7 --> 17)
@@ -66,6 +73,7 @@ print "<br>--- [ Operadores de Asignación ] --- <br>";
 *= (Ex. $num4 *= 7 --> 140)
 /= (Ex. $numero2 /= 2 --> 10)
 */
+
 $num3=10;
 $num4=20;
 echo $num3 -= 7;

@@ -10,8 +10,6 @@ for($i=1; $i<=5; $i++){
     #Si la condicion es i<=5: 5 veces
     // Concatenamos 123.. con el string Lokesh
     echo $i . ' Lokesh <br>';
-  
-   # Ojo, mucho con las condiciones..tiene que tener sentido con la variable definida sino entrmos en un bucle infinito
 }
 echo '<br>';
 
@@ -27,6 +25,8 @@ print "<br>---------- (i--) --------------<br>";
 for($i = 10; $i>= 1; $i--){
     echo $i . '<br>';
 } 
+
+
 
 
 
@@ -58,6 +58,8 @@ echo '<br>';
 
 
 
+
+
 print "<br>--- [ Ciclo DO While ] ---";
 print "<br>---------- (gg++) --------------<br>";
 // A diferencia de For loop y While, el Do While al menos se ejecuta una vez 'aunque falle la condicion'
@@ -70,6 +72,8 @@ $gg++;
 }while($gg == 50);
 
 echo '<br>';
+
+
 
 
 
