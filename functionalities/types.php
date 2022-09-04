@@ -58,6 +58,7 @@ print "<br>--- [ Constantes ] --- <br>";
 // Por lo tanto son únicas y no se puede reescribirlas. Se recomienda escribirlas en mayusculas.
 define('NOMBRE', 'Lokesh');
 define('PI', '3.14');
+// echo M_PI;
 // define('Nombre', 'Pepe');
 echo NOMBRE .'<br>';
 echo PI;

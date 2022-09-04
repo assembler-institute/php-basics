@@ -1,6 +1,8 @@
 <?php
 // Pi function
-echo PI();
+$pi = PI();
+#el segundo parametro nos permite especificar cuntos deciamales queremos enseñar
+echo round($pi, 2);
 echo'<br>';
 // Exponentes function: cuadrados, cubos, etc.
 echo pow(5,2);
@@ -63,6 +65,7 @@ function getMinValue($arr){
     }
     return $min;
 }
+
 echo getMinValue($arr);
 
     echo '<br>';
