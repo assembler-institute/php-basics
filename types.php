@@ -1,44 +1,54 @@
 <?php
-$foo = True; // assign the value TRUE to $foo
+// type string
+$a = "Hello world!";
+var_dump($a);
+echo '<br><br>';
 
-$a = 1234; // decimal number
-$a = 0123; // octal number (equivalent to 83 decimal)
-$a = 0123; // octal number (as of PHP 8.1.0)
-$a = 0x1A; // hexadecimal number (equivalent to 26 decimal)
-$a = 0b11111111; // binary number (equivalent to 255 decimal)
-$a = 1_234_567; // decimal number (as of PHP 7.4.0)
+// type integer
+$b = 5985;
+var_dump($b);
+echo '<br><br>';
 
-$a = 1.234; 
-$b = 1.2e3; 
-$c = 7E-10;
-$d = 1_234.567; // as of PHP 7.4.0
+// type float
+$c = 10.365;
+var_dump($c);
+echo '<br><br>';
 
-echo `a
-     b
-    c`;
+// type boolean
+$d = true;
+var_dump($d);
+echo '<br><br>';
 
-    $array = array(
-        "foo" => "bar",
-        "bar" => "foo",
-    );
-    
-    // Using the short array syntax
-    $array = [
-        "foo" => "bar",
-        "bar" => "foo",
-    ];
+// null
+$e = null;
+var_dump($e);
 
+// type array
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars);
+echo '<br><br>';
 
-
-    class foo
+// type object (class)
+class Car
 {
-    function do_foo()
-    {
-        echo "Doing foo."; 
-    }
+  public $color;
+  public $model;
+  public function __construct($color, $model)
+  {
+    $this->color = $color;
+    $this->model = $model;
+  }
+  public function message()
+  {
+    return "My car is a " . $this->color . " " . $this->model . "!";
+  }
 }
 
-$bar = new foo;
-$bar->do_foo();
+$myCar = new Car("black", "Volvo");
+echo $myCar->message();
+echo "<br>";
+$myCar = new Car("red", "Toyota");
+echo $myCar->message();
+echo '<br><br>';
 
 ?>
