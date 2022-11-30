@@ -1,0 +1,20 @@
+<?php
+var_dump(1==1);
+echo "<br/>";
+var_dump(3+3);
+echo "<br/>";
+var_dump(1 !== 1);
+echo "<br/>";
+var_dump(3 < 4);
+echo "<br/>";
+var_dump(5>4);
+echo "<br/>";
+var_dump(7*9);
+echo "<br/>";
+$value = 15;
+$value2 = 12;
+var_dump($value || $value2);
+echo "<br/>";
+var_dump($value && $value2);
+echo "<br/>";
+var_dump(!$value);
