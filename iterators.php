@@ -1,20 +1,32 @@
 <?php
+
 $i = 1;
-$x = 0;
 
 for ($i = 1; $i <= 10; $i++) {
     echo $i;
 }
 
+echo "<br><br>";
+
 $array = array(1, 2, 3, 4);
 
 foreach ($array as &$valor) {
-    $valor = $valor * 2;
+     $valor = $valor * 2;
+    echo "Valor de $valor<br>";
 }
 
-while ($i <= 10) {
-    echo $i++;
+echo "<br><br>";
+
+$y = 1;
+
+while ($y <= 10) {
+    echo $y;
+    $y++;
 }
+
+echo "<br><br>";
+
+$x = 0;
 
 do {
     echo $x;
