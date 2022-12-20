@@ -7,11 +7,13 @@ echo ("<h1>Data types</h1>");
 $typeBool = true;
 var_dump($typeBool);
 echo ("<hr>");
+
 # Integer
 
 $integer = 1;
 var_dump($integer);
 echo ("<hr>");
+
 # Float
 
 $float = 1.1;
@@ -30,7 +32,7 @@ $array = array(1);
 var_dump($array);
 echo ("<hr>");
 
-# object
+# Object
 
 class typeBool{};
 $object = new typeBool;
