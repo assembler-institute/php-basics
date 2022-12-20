@@ -20,9 +20,9 @@ echo '<br><br>';
 $currentMonth = $date->format('M');
 
 if ($currentMonth == 'Oct') {
-    print "We are in October";
+    echo "We are in October";
 } else {
-    print "We are in $currentMonth";
+    echo "We are in $currentMonth";
 }
 
 echo '<br><br>';
