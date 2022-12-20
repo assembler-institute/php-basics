@@ -6,40 +6,33 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
+> In this project we learnt the basic notions of the famous PHP language which is so used in the world of web development.
 >
 > What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
 
 ## Index <!-- omit in toc -->
 
+- [Organization](#organitzation)
 - [Requirements](#requirements)
-- [Repository](#repository)
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
 - [Resources](#resources)
+
+
+## Organization
+
+- In this project in the first instance I have created all the necessary files for its further development. Once finished, I modified the readme and made a "pull request" to upload the project with all the changes to Github.
 
 ## Requirements
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+- Learn the basics to program in PHP.
+- Understand what a server-side language is and what it is used for.
+- Learn to use a LocalServer with XAMPP.
 
 ## Technologies used
 
 \* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
+\* XAMPP
+\* VSCode
 
 ## Resources
 
