@@ -13,7 +13,7 @@
   <li>Choose your SO and architecture and download it.</li>
 </ul>
 
-![1](https://user-images.githubusercontent.com/103459716/208669489-09cc934f-1867-45e2-8b56-af491c68d365.png)
+<img alt="1" src="assets/1.png" />
 <p>Click Yes.</p>
 ![dos](https://user-images.githubusercontent.com/103459716/208670197-d0062301-406f-4a77-a335-9e4a81e91509.png)
 <p>Click Accept.</p>
