@@ -16,10 +16,12 @@
 ![1](https://user-images.githubusercontent.com/103459716/208667159-9ac5ab11-7f53-404d-a66c-1065efc369f8.png)
 
 <p>Click Yes.</p>
-![1](https://raw.githubusercontent.com/103459716/208667977-31dcabb9-84e0-4e63-a39f-3d0fc1729af1.png)
+
+
 
 <p>Click Accept.</p>
-![1](https://raw.githubusercontent.com/103459716/208668022-5484046d-eec7-4560-bb21-a2922e1837d0.png)
+
+![3](https://user-images.githubusercontent.com/103459716/208669090-799f0197-3607-494d-9467-c278a8c7d7e9.png)
 
 <p>Click Next.</p>
 
