@@ -38,6 +38,8 @@ if ($minute < 10){
     echo "does not meet any conditions<br><br>";
 }
 
+echo "<br><br>";
+
 #Switch statement
 
 $dayOfTheWeek = date("l");
