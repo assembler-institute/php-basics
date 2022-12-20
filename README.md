@@ -15,13 +15,13 @@
 
 <img alt="1" src="assets/1.png" />
 <p>Click Yes.</p>
-![dos](https://user-images.githubusercontent.com/103459716/208670197-d0062301-406f-4a77-a335-9e4a81e91509.png)
+<img alt="2" src="assets/2.png" />
 <p>Click Accept.</p>
-![3](https://user-images.githubusercontent.com/103459716/208669090-799f0197-3607-494d-9467-c278a8c7d7e9.png)
+<img alt="3" src="assets/3.png" />
 <p>Click Next.</p>
-![4](https://user-images.githubusercontent.com/103459716/208669685-7405ba73-af5e-41f2-aeac-2f9589b0b1dc.png)
+<img alt="4" src="assets/4.png" />
 <p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
-![5](https://user-images.githubusercontent.com/103459716/208669866-bda984b7-0d82-459a-995d-e0c1dcc9aed3.png)
+<img alt="5" src="assets/5.png" />
 <p>And finally, select the path where you want to install it.</p>
 End with an example of getting some data out of the system or using it for a little demo
 
