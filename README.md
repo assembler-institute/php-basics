@@ -1,11 +1,11 @@
 # Project Title
-PHP Cheat Sheets
+<p>PHP Basics</p>
 
 ## Getting Started
-To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include. I recommend that you install XAMPP
+<p>To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include. I recommend that you install XAMPP</p>
 
 ## Prerequisites
-Install XAMPP in your computer and run Apache server.
+<p>Install XAMPP in your computer and run Apache server.</p>
 
 ## Installing XAMPP
 <ul>
@@ -14,10 +14,13 @@ Install XAMPP in your computer and run Apache server.
 </ul>
 
 ![1](https://user-images.githubusercontent.com/103459716/208667159-9ac5ab11-7f53-404d-a66c-1065efc369f8.png)
+
 <p>Click Yes.</p>
-![2](https://user-images.githubusercontent.com/103459716/208667197-41c9f963-9323-4b6b-8695-b60973c29edb.png)
+![2](https://user-images.githubusercontent.com/103459716/208667977-31dcabb9-84e0-4e63-a39f-3d0fc1729af1.png)
+
 <p>Click Accept.</p>
-![3](https://user-images.githubusercontent.com/103459716/208667221-03f8b800-f079-4656-8a4f-0016d603ce54.png)
+![3](https://user-images.githubusercontent.com/103459716/208668022-5484046d-eec7-4560-bb21-a2922e1837d0.png)
+
 <p>Click Next.</p>
 
 End with an example of getting some data out of the system or using it for a little demo
