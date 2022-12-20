@@ -1,30 +1,24 @@
 # PHP Basics - MSD OCT22
 
-Project created by [David Pizarro](https://github.com/DTPF)
+Project created by [David Pizarro](https://dtpf.es)
+
+## Web
+
+* [https://php-basics.dtpf.es](https://php-basics.dtpf.es/)
 
 ## Requriments
 
 - [PHP] 7 or higher.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Installing
 
-Say what the step will be
-
 ```
-git clone
+clone and execute it on the PHP server
 ```
 
 ## Built With
 
 * [PHP](https://www.php.net/)
 * [VSCode](https://code.visualstudio.com/) 
-
-## Web
-
-* [dtpf.es](https://php-basics.dtpf.es/)
 
 [PHP]: <https://www.php.net>
