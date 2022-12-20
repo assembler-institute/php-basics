@@ -18,19 +18,17 @@
 
   // Create a function that given two numbers returns the sum of both
   echo '<h4>Create a function that given two numbers returns the sum of both</h4>';
-  function sum($a, $b)
-  {
-    echo $a . ' + ' . $b . " = " . $a + $b;
-  }
   echo '
 <pre>
 function sum($a, $b){
-  $x = $a;
-  $y = $b;
-  echo $a." + ".$b." = ". $a + $b;
+  echo $a + $b;
 }
 sum(66, 99);
 </pre> ==> ';
+  function sum($a, $b)
+  {
+    echo $a + $b;
+  }
   sum(66, 99);
 
   hr();
@@ -40,13 +38,13 @@ sum(66, 99);
   echo '
 <pre>
 function multiplication($a, $b) {
-  echo $a . " + " . $b . " = " . $a * $b;
+  echo $a * $b;
 }
 multiplication(23, 17);
 </pre> ==> ';
   function multiplication($a, $b)
   {
-    echo $a . ' + ' . $b . " = " . $a * $b;
+    echo $a * $b;
   }
   multiplication(23, 17);
 
@@ -57,13 +55,13 @@ multiplication(23, 17);
   echo '
 <pre>
 function division($a, $b) {
-  echo $a . " + " . $b . " = " . $a / $b;
+  echo $a / $b;
 }
-division(23, 17);
+division(100, 2);
 </pre> ==> ';
   function division($a, $b)
   {
-    echo $a . ' + ' . $b . " = " . $a / $b;
+    echo $a / $b;
   }
   division(100, 2);
 
