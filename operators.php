@@ -3,46 +3,15 @@
 $a = 4;
 $b = 7;
 
-echo ($a + $b);
-echo "<br>";
-echo ($a - $b);
-echo "<br>";
-echo ($a * $b);
-echo "<br>";
-echo ($a / $b);
-echo "<br>";
-echo ($a % $b);
-
-var_dump($a == $b);
-
-echo "<br>";
+var_dump($a + $b, $a - $b, $a * $b, $a / $b, $a % $b);
 echo ($a == $b);
-echo "<br>";
-echo ($a != $b);
-echo "<br>";
-echo ($a < $b);
-echo "<br>";
-echo ($a > $b);
-echo "<br>";
-echo ($a <= $b);
-echo "<br>";
-echo ($a >= $b);
+echo "<br><br>";
 
-var_dump($a == $b);
+var_dump($a == $b,$a != $b,$a < $b,$a > $b,$a <= $b,$a >= $b);
+echo ($a == $b);
+echo "<br><br>";
 
-echo "<br>";
-echo ($a && $b);
-echo "<br>";
-echo ($a and $b);
-echo "<br>";
-echo ($a || $b);
-echo "<br>";
-echo ($a or $b);
-echo "<br>";
-echo (! $b);
-echo "<br>";
-echo ($a xor $b);
-
-var_dump($a == $b);
+var_dump($a && $b,$a and $b,$a || $b,$a or $b,! $b,$a xor $b);
+echo ($a == $b);
 
 ?>
