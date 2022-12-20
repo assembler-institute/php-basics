@@ -28,9 +28,4 @@ echo '<br><br>';
 echo $date->format ('i');
 
 
-
-
-
-
-
 ?>
