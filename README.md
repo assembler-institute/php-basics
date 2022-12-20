@@ -1,13 +1,13 @@
-#Project Title
+# Project Title
 PHP Cheat Sheets
 
-##Getting Started
+## Getting Started
 To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include. I recommend that you install XAMPP
 
-##Prerequisites
+## Prerequisites
 Install XAMPP in your computer and run Apache server.
 
-##Installing XAMPP
+## Installing XAMPP
 <ul>
   <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
   <li>Choose your SO and architecture and download it.</li>
