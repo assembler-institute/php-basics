@@ -1,51 +1,46 @@
-`#php` `#basics` `#master-in-software-development`
+# Project Title
+<p>PHP Basics</p>
 
-# PHP Basics <!-- omit in toc -->
+## Getting Started
+<p>To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include. I recommend that you install XAMPP</p>
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Prerequisites
+<p>Install XAMPP in your computer and run Apache server.</p>
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+## Installing XAMPP
+<ul>
+  <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
+  <li>Choose your SO and architecture and download it.</li>
+  <br><li>Click Yes.</li><br>
+  <img alt="1" src="assets/1.png" /><br>
+  <br><li>Click Accept.</li><br>
+  <img alt="2" src="assets/2.png" /><br>
+  <br><li>Click Next.</li><br>
+  <img alt="3" src="assets/3.png" /><br>
+  <br><li>Select the optional content that you want. You can notice that Apache server is default selected.</li><br>
+  <img alt="4" src="assets/4.png" /><br>
+  <br><li>And finally, select the path where you want to install it.</li><br>
+  <img alt="5" src="assets/5.png" /><br>
+</ul>
 
-## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+## Running Apache Server
+<p>Once you have installed XAMPP, open it and run Apache until it appears in green and with PID port numbers.</p>
+<img alt="Apache" src="assets/run.png" />
 
-## Requirements
+## How can you open a Page?
+<p>You just write "localhost/php-basics/{page name}.php" and you could view this page content.</p>
+<img alt="URL" src="assets/path.png" />
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
 
-## Repository
+## Built With
+<ul>
+  <li>PHP</li>
+  <li>Visual Studio Code</li>
+</ul>
 
-First of all you must fork this project into your GitHub account.
+## Author
+Antonio Rufino Casasus - Assembler Institute of Technology
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
-
-## Technologies used
-
-\* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
-
-## Resources
-
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+## License
+This project is licensed under the MIT License.
