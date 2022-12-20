@@ -11,49 +11,36 @@
 <ul>
   <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
   <li>Choose your SO and architecture and download it.</li>
+  <li>Click Yes.</li><br>
+  <img alt="1" src="assets/1.png" /><br>
+  <li>Click Accept.</li><br>
+  <img alt="2" src="assets/2.png" /><br>
+  <li>Click Next.</li><br>
+  <img alt="3" src="assets/3.png" /><br>
+  <li>Select the optional content that you want. You can notice that Apache server is default selected.</li><br>
+  <img alt="4" src="assets/4.png" /><br>
+  <li>And finally, select the path where you want to install it.</li><br>
+  <img alt="5" src="assets/5.png" /><br>
 </ul>
 
-<img alt="1" src="assets/1.png" />
-<p>Click Yes.</p>
-<img alt="2" src="assets/2.png" />
-<p>Click Accept.</p>
-<img alt="3" src="assets/3.png" />
-<p>Click Next.</p>
-<img alt="4" src="assets/4.png" />
-<p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
-<img alt="5" src="assets/5.png" />
-<p>And finally, select the path where you want to install it.</p>
 
 ## Running Apache Server
+<p>Once you have installed XAMPP, open it and run Apache until it appears in green and with PID port numbers.</p>
 <img alt="Apache" src="assets/run.png" />
-<p>Once you have installed XAMPP, open it and run Apache.</p>
 
-Give an example
-And coding style tests
-Explain what these tests test and why
+## How can you open a Page?
+<p>You just write "localhost/php-basics/{page name}.php" and you could view this page content.</p>
+<img alt="URL" src="assets/path.png" />
 
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
 
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+## Built With
+<ul>
+  <li>PHP</li>
+  <li>Visual Studio Code</li>
+</ul>
 
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
+## Author
+Antonio Rufino Casasus - Assembler Institute of Technology
 
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+## License
+This project is licensed under the MIT License.
