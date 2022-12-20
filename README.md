@@ -4,7 +4,7 @@
 
 # PHP Basics <!-- omit in toc -->
 
-> In this project I will learned the basic notions of  PHP, language which is so used in the world of web development.
+> In this project I learned the basic notions of  PHP, language which is so used in the world of web development.
 
 All the exercises have been done using PHP as language and using Xampp as web server.
   
