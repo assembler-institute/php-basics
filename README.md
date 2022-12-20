@@ -1,51 +1,30 @@
-`#php` `#basics` `#master-in-software-development`
+# PHP Basics - MSD OCT22
 
-# PHP Basics <!-- omit in toc -->
+Project created by [David Pizarro](https://github.com/DTPF)
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Requriments
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+- [PHP] 7 or higher.
 
-## Index <!-- omit in toc -->
+## Getting Started
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Requirements
+## Installing
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+Say what the step will be
 
-## Repository
+```
+git clone
+```
 
-First of all you must fork this project into your GitHub account.
+## Built With
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+* [PHP](https://www.php.net/)
+* [VSCode](https://code.visualstudio.com/) 
 
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+## Web
 
-## Technologies used
+* [dtpf.es](https://php-basics.dtpf.es/)
 
-\* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
-
-## Resources
-
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+[PHP]: <https://www.php.net>
