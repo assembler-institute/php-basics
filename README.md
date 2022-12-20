@@ -11,15 +11,15 @@
 <ul>
   <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
   <li>Choose your SO and architecture and download it.</li>
-  <li>Click Yes.</li><br>
+  <br><li>Click Yes.</li><br>
   <img alt="1" src="assets/1.png" /><br>
-  <li>Click Accept.</li><br>
+  <br><li>Click Accept.</li><br>
   <img alt="2" src="assets/2.png" /><br>
-  <li>Click Next.</li><br>
+  <br><li>Click Next.</li><br>
   <img alt="3" src="assets/3.png" /><br>
-  <li>Select the optional content that you want. You can notice that Apache server is default selected.</li><br>
+  <br><li>Select the optional content that you want. You can notice that Apache server is default selected.</li><br>
   <img alt="4" src="assets/4.png" /><br>
-  <li>And finally, select the path where you want to install it.</li><br>
+  <br><li>And finally, select the path where you want to install it.</li><br>
   <img alt="5" src="assets/5.png" /><br>
 </ul>
 
