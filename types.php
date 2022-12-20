@@ -56,5 +56,14 @@ echo "This is an object: <br><br>";
 $object = (object)array("tedi"=>"bear");
 
 var_dump($object);
+echo "<br><br>";
+
+#NULL
+
+echo "This is NULL: <br><br>";
+
+$null = NULL;
+
+var_dump($null);
 
 ?>
