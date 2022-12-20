@@ -27,7 +27,7 @@ echo "This is the highest value function: <br><br>";
 
 $array = array(4, 5, 12, 23, 2, 1);
 echo "Array to do highest value: <br>";
-var_dump($array);
+print_r($array);
 echo "<br><br>";
 
 echo "Max function: ";
