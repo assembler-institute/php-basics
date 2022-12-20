@@ -41,7 +41,7 @@ To view the file, type the following in your browser:
 
 ## Authors ✒️
 
-* **Jose Torres** - *Trabajo Inicial* - [88jose](https://github.com/88jose)
+* **Jose Torres** - [88jose](https://github.com/88jose)
 
 
 
