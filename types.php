@@ -1,88 +1,104 @@
-<?php
-require './globals.php';
+<!DOCTYPE html>
+<html lang="en">
 
-echo '<h2>types.php</h2>';
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHP - Types</title>
+</head>
 
-hr();
+<body>
+  <?php
+  require './globals.php';
 
-// Boolean
-echo '<h4>Boolean</h4>';
-echo '
+  echo '<h2>types.php</h2>';
+
+  hr();
+
+  // Boolean
+  echo '<h4>Boolean</h4>';
+  echo '
 <pre>
 $boolean = true;
 var_dump($boolean);
 </pre> ==> ';
-$boolean = true;
-var_dump($boolean);
+  $boolean = true;
+  var_dump($boolean);
 
-hr();
+  hr();
 
-// Integer
-echo '<h4>Integer</h4>';
-echo '
+  // Integer
+  echo '<h4>Integer</h4>';
+  echo '
 <pre>
 $integer = 5;
 var_dump($integer);
 </pre> ==> ';
-$integer = 5;
-var_dump($integer);
+  $integer = 5;
+  var_dump($integer);
 
-hr();
+  hr();
 
-// Float
-echo '<h4>Float</h4>';
-echo '
+  // Float
+  echo '<h4>Float</h4>';
+  echo '
 <pre>
 $float = 0.5;
 var_dump($float);
 </pre> ==> ';
-$float = 0.5;
-var_dump($float);
+  $float = 0.5;
+  var_dump($float);
 
-hr();
+  hr();
 
-// String
-echo '<h4>String</h4>';
-echo '
+  // String
+  echo '<h4>String</h4>';
+  echo '
 <pre>
 $string = "This is a string";
 var_dump($string);
 </pre> ==> ';
-$string = 'This is a string';
-var_dump($string);
+  $string = 'This is a string';
+  var_dump($string);
 
-hr();
+  hr();
 
-// Array
-echo '<h4>Array</h4>';
-echo '
+  // Array
+  echo '<h4>Array</h4>';
+  echo '
 <pre>
 $array = [1, 2, 3];
 var_dump($array);
 </pre> ==> ';
-$array = [1, 2, 3];
-var_dump($array);
+  $array = [1, 2, 3];
+  var_dump($array);
 
-hr();
+  hr();
 
-// Object
-echo '<h4>Object</h4>';
-echo '
+  // Object
+  echo '<h4>Object</h4>';
+  echo '
 <pre>
 $object = (object) array("name" => "David");
 var_dump($object);
 </pre> ==> ';
-$object = (object) array('name' => 'David');
-var_dump($object);
+  $object = (object) array('name' => 'David');
+  var_dump($object);
 
-hr();
+  hr();
 
-// Null
-echo '<h4>Null</h4>';
-echo '
+  // Null
+  echo '<h4>Null</h4>';
+  echo '
 <pre>
 $null = null;
 var_dump($null);
 </pre> ==> ';
-$null = null;
-var_dump($null);
+  $null = null;
+  var_dump($null);
+
+  ?>
+</body>
+
+</html>

@@ -1,17 +1,28 @@
-<?php
-require './globals.php';
+<!DOCTYPE html>
+<html lang="en">
 
-echo '<h2>functions.php</h2>';
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHP - Functions</title>
+</head>
 
-hr();
+<body>
+  <?php
+  require './globals.php';
 
-// Create a function that given two numbers returns the sum of both
-echo '<h4>Create a function that given two numbers returns the sum of both</h4>';
-function sum($a, $b)
-{
-  echo $a . ' + ' . $b . " = " . $a + $b;
-}
-echo '
+  echo '<h2>functions.php</h2>';
+
+  hr();
+
+  // Create a function that given two numbers returns the sum of both
+  echo '<h4>Create a function that given two numbers returns the sum of both</h4>';
+  function sum($a, $b)
+  {
+    echo $a . ' + ' . $b . " = " . $a + $b;
+  }
+  echo '
 <pre>
 function sum($a, $b){
   $x = $a;
@@ -20,47 +31,47 @@ function sum($a, $b){
 }
 sum(66, 99);
 </pre> ==> ';
-sum(66, 99);
+  sum(66, 99);
 
-hr();
+  hr();
 
-// Create a function that given two numbers returns the multiplication of both
-echo '<h4>Create a function that given two numbers returns the multiplication of both</h4>';
-echo '
+  // Create a function that given two numbers returns the multiplication of both
+  echo '<h4>Create a function that given two numbers returns the multiplication of both</h4>';
+  echo '
 <pre>
 function multiplication($a, $b) {
   echo $a . " + " . $b . " = " . $a * $b;
 }
 multiplication(23, 17);
 </pre> ==> ';
-function multiplication($a, $b)
-{
-  echo $a . ' + ' . $b . " = " . $a * $b;
-}
-multiplication(23, 17);
+  function multiplication($a, $b)
+  {
+    echo $a . ' + ' . $b . " = " . $a * $b;
+  }
+  multiplication(23, 17);
 
-hr();
+  hr();
 
-// Create a function that given two numbers returns the division of both
-echo '<h4>Create a function that given two numbers returns the division of both</h4>';
-echo '
+  // Create a function that given two numbers returns the division of both
+  echo '<h4>Create a function that given two numbers returns the division of both</h4>';
+  echo '
 <pre>
 function division($a, $b) {
   echo $a . " + " . $b . " = " . $a / $b;
 }
 division(23, 17);
 </pre> ==> ';
-function division($a, $b)
-{
-  echo $a . ' + ' . $b . " = " . $a / $b;
-}
-division(100, 2);
+  function division($a, $b)
+  {
+    echo $a . ' + ' . $b . " = " . $a / $b;
+  }
+  division(100, 2);
 
-hr();
+  hr();
 
-// Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.
-echo '<h4>Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.</h4>';
-echo '
+  // Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.
+  echo '<h4>Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.</h4>';
+  echo '
 <pre>
 function calc($a, $b, $operation) {
   switch ($operation) {
@@ -79,20 +90,25 @@ function calc($a, $b, $operation) {
 }
 calc(20, 20, "add");
 </pre> ==> ';
-function calculate($a, $b, $operation)
-{
-  switch ($operation) {
-    case 'add':
-      echo $a . ' + ' . $b . " = " . $a + $b;
-      break;
-    case 'multiply':
-      echo $a . ' + ' . $b . " = " . $a * $b;
-      break;
-    case 'divide':
-      echo $a . ' + ' . $b . " = " . $a / $b;
-      break;
-    default:
-      echo 'Invalid parameter';
+  function calculate($a, $b, $operation)
+  {
+    switch ($operation) {
+      case 'add':
+        echo $a . ' + ' . $b . " = " . $a + $b;
+        break;
+      case 'multiply':
+        echo $a . ' + ' . $b . " = " . $a * $b;
+        break;
+      case 'divide':
+        echo $a . ' + ' . $b . " = " . $a / $b;
+        break;
+      default:
+        echo 'Invalid parameter';
+    }
   }
-}
-calculate(20, 200, 'add');
+  calculate(20, 200, 'add');
+
+  ?>
+</body>
+
+</html>
