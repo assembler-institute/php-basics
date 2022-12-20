@@ -12,34 +12,19 @@
 
 ## Index <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
+- [How to run](#How-to-run)
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
 - [Resources](#resources)
 
-## Requirements
+## How to run
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+- Install XAMPP
+- Run Apache in the Xampp control panel
+- The project will run on localhost:80 or http://127.0.0.1/
 
 ## Technologies used
 
 \* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
 
 ## Resources
 
