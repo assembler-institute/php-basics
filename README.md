@@ -2,21 +2,22 @@ Project Title
 PHP Cheat Sheets
 
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include.
 
 Prerequisites
-What things you need to install the software and how to install them
+Install Xampp in your computer and run Apache server.
 
-Give examples
 Installing
-A step by step series of examples that tell you how to get a development env running
+-You can download Xampp in this page https://www.apachefriends.org/es/download.html
+-Choose your SO and architecture and download it.
 
-Say what the step will be
+assets/1.png
+-Click Yes.
+assets/2.png
+-Click Accept.
+assets/3.png
+-Click Next.
 
-Give the example
-And repeat
-
-until finished
 End with an example of getting some data out of the system or using it for a little demo
 
 Running the tests
