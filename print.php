@@ -15,6 +15,7 @@
 
         print '<p> Display variable with <b>print</b> statement: '. $name .'</p>';
         echo '<hr>';
+        
         echo '<p>Show nested array with <b>print_r</b> statement</p>';
         echo '<pre>';
         $compra = array ('verdura' => array ('pimiento', 'calabaza', 'berengena'), 'fruta' => array ('pera', 'manzana', 'uvas'));

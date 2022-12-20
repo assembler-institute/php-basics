@@ -9,7 +9,6 @@
 <body>
     <h1>Strings.php</h1>
     <?php
-     include "arrays.php";
 
      echo '<b> Print a text string: </b>"I am a text string"<br><br>';
 
@@ -39,9 +38,8 @@
      echo '<br><br><b>Convert text string to lowercase: $phrase = "Today is a good day";</b><br>';
      echo strtolower($phrase);
 
-     echo '<br><br><b>Get substring of text from array.php file</b><br>';
-    //  primer parametro posicion del array, segundo parametro posicion de la letra y tercer parametro cuantas letras queremos mostrar
-     echo substr($string[1], 0, 4);
+     echo '<br><br><b>Get substring of text</b><br>';
+     echo substr($phrase, 0, 4);
 
 
     ?>
