@@ -23,7 +23,7 @@ function all(int $a,int $b, int $c, int $d){
     return $a + $b * $c / $d;
 }
 echo all(70, 7, 8, 6); 
-echo "<br><br>";s
+echo "<br><br>";
 
 
 $x=100;
