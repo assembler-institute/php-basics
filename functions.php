@@ -88,7 +88,7 @@ function calc($a, $b, $operation) {
       echo "Invalid parameter";
   }
 }
-calc(20, 20, "add");
+calc(20, 200, "add");
 </pre> ==> ';
   function calculate($a, $b, $operation)
   {
