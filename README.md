@@ -1,51 +1,54 @@
-`#php` `#basics` `#master-in-software-development`
+# PHP-Basics
 
-# PHP Basics <!-- omit in toc -->
+First steps in PHP. Creating a directory with the different methods and nomenclature of PHP.
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Getting Started
 
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
->
-> What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Index <!-- omit in toc -->
+### Prerequisites
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+Having an environment capable of running PHP in a version higher than 7.2.
 
-## Requirements
+### Installing
 
-- Learn the basics to program in PHP
-- Understand what a server-side language is and what it is used for
+Install PHP environment. PHP is widely used to develop with a XAMPP environment which is basically a stack of web technologies such as web server, php interpreter and a MariaDB database.
 
-## Repository
+Since PHP is designed for the web it requires a web server. So to give an easier approach to install all these services at once and across Linux, Mac and Windows operating systems the Apache Friends created XAMPP.
 
-First of all you must fork this project into your GitHub account.
+```
+Homepage to download XAMPP:
+https://www.apachefriends.org/es/index.html
+```
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+Install XAMPP and when it finishes open the application.
 
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+```
+How to install XAMPP on Mac.
+https://www.youtube.com/watch?v=ryq01KSn00o&ab_channel=LearnWithAhsan
+How to install XAMPP on Windows.
+https://www.youtube.com/watch?v=h6DEDm7C37A
+```
 
-## Technologies used
+Create a new project and fork the PHP project from the following link:
 
-\* PHP
+```
+https://github.com/assembler-institute/php-basics
+```
 
-## Project delivery
+Follow the instructions in the doc.
 
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
+## Built With
 
-## Resources
+* [PHP](https://www.php.net/) - The web framework used
 
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
-- [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+## Authors
+
+* **Jesus Velazquez Jurado** - *Initial work* - [jesusfvj](https://github.com/jesusfvj)
+
+## Acknowledgments
+
+* Assembler Institute of Technology.
+* Miquel.
+* Wilson.
+* David.
