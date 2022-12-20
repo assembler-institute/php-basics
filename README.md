@@ -23,13 +23,10 @@
 <p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
 <img alt="5" src="assets/5.png" />
 <p>And finally, select the path where you want to install it.</p>
-End with an example of getting some data out of the system or using it for a little demo
 
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
+## Running Apache Server
+<img alt="Apache" src="assets/run.png" />
+<p>Once you have installed XAMPP, open it and run Apache.</p>
 
 Give an example
 And coding style tests
