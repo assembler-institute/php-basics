@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>strings.php</h2>';
+  echo '<h2>PHP - Strings</h2>';
 
   hr();
 

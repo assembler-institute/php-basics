@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>arrays.php</h2>';
+  echo '<h2>PHP - Arrays</h2>';
 
   hr();
 

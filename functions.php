@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>functions.php</h2>';
+  echo '<h2>PHP - Functions</h2>';
 
   hr();
 

@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>print.php</h2>';
+  echo '<h2>PHP - Print</h2>';
 
   hr();
 

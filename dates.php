@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>dates.php</h2>';
+  echo '<h2>PHP - Dates</h2>';
 
   hr();
 

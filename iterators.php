@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>iterators.php</h2>';
+  echo '<h2>PHP - Iterators</h2>';
 
   hr();
 

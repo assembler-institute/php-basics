@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>conditionals.php</h2>';
+  echo '<h2>PHP - Conditionals</h2>';
 
   hr();
 

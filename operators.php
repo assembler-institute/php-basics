@@ -10,7 +10,7 @@
   <?php
 require './globals.php';
 
-echo '<h2>operators.php</h2>';
+echo '<h2>PHP - Operators</h2>';
 
 hr();
 

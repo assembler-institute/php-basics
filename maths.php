@@ -12,7 +12,7 @@
   <?php
   require './globals.php';
 
-  echo '<h2>types.php</h2>';
+  echo '<h2>PHP - Types</h2>';
 
   hr();
 
