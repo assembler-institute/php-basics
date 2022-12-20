@@ -73,34 +73,35 @@ division(23, 17);
   echo '<h4>Create a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.</h4>';
   echo '
 <pre>
-function calc($a, $b, $operation) {
+function calculate($a, $b, $operation)
+{
   switch ($operation) {
     case "add":
-      echo $a . " + " . $b . " = " . $a + $b;
+      echo sum($a, $b);
       break;
     case "multiply":
-      echo $a . " + " . $b . " = " . $a * $b;
+      echo multiplication($a, $b);
       break;
     case "divide":
-      echo $a . " + " . $b . " = " . $a / $b;
+      echo division($a, $b);
       break;
     default:
       echo "Invalid parameter";
   }
 }
-calc(20, 200, "add");
+calculate(20, 200, "add");
 </pre> ==> ';
   function calculate($a, $b, $operation)
   {
     switch ($operation) {
       case 'add':
-        echo $a . ' + ' . $b . " = " . $a + $b;
+        echo sum($a, $b);
         break;
       case 'multiply':
-        echo $a . ' + ' . $b . " = " . $a * $b;
+        echo multiplication($a, $b);
         break;
       case 'divide':
-        echo $a . ' + ' . $b . " = " . $a / $b;
+        echo division($a, $b);
         break;
       default:
         echo 'Invalid parameter';
