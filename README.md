@@ -26,7 +26,6 @@ When you have installed XAMPP follow the steps below.
 ## Running the tests ⚙️
 
 To view the file, type the following in your browser:
-
 #### localhost/folder-name
 
 
