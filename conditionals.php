@@ -25,25 +25,25 @@ if($minutes < 10){
 
 switch ($weekDay) {
     case 1:
-        echo "Hey man, today is Monday";
+        echo "Hey man, today is Monday <br>";
         break;
     case 2:
-        echo "Hey man, today is Tuesday";
+        echo "Hey man, today is Tuesday <br>";
         break;
     case 3:
-        echo "Hey man, today is Wednesday";
+        echo "Hey man, today is Wednesday <br>";
         break;
     case 4:
-        echo "Hey man, today is Thursday";
+        echo "Hey man, today is Thursday <br>";
         break;
     case 5:
-        echo "Hey man, today is Friday";
+        echo "Hey man, today is Friday <br>";
         break;
     case 6:
-        echo "Hey man, today is Saturday";
+        echo "Hey man, today is Saturday <br>";
         break;
     case 0:
-        echo "Hey man, today is Sunday";
+        echo "Hey man, today is Sunday <br>";
         break;
     
     default:
