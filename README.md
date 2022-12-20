@@ -11,19 +11,19 @@
 <ul>
   <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
   <li>Choose your SO and architecture and download it.</li>
-
-
-<img alt="1" src="assets/1.png" />
-<li>Click Yes.</li>
-<img alt="2" src="assets/2.png" />
-<li>Click Accept.</li>
-<img alt="3" src="assets/3.png" />
-<li>Click Next.</li>
-<img alt="4" src="assets/4.png" />
-<li>Select the optional content that you want. You can notice that Apache server is default selected.</li>
-<img alt="5" src="assets/5.png" />
-<li>And finally, select the path where you want to install it.</li>
+  <li>Click Yes.</li><br>
+  <img alt="1" src="assets/1.png" /><br>
+  <li>Click Accept.</li><br>
+  <img alt="2" src="assets/2.png" /><br>
+  <li>Click Next.</li><br>
+  <img alt="3" src="assets/3.png" /><br>
+  <li>Select the optional content that you want. You can notice that Apache server is default selected.</li><br>
+  <img alt="4" src="assets/4.png" /><br>
+  <li>And finally, select the path where you want to install it.</li><br>
+  <img alt="5" src="assets/5.png" /><br>
 </ul>
+
+
 ## Running Apache Server
 <p>Once you have installed XAMPP, open it and run Apache until it appears in green and with PID port numbers.</p>
 <img alt="Apache" src="assets/run.png" />
