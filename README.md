@@ -1,21 +1,19 @@
-# Título del Proyecto
-
-PHP practice with the Assembler school
+# PHP practice with the Assembler school
 
 
-## Comenzando 🚀
+## Starting 🚀
 
 These instructions will allow you to get a working copy of the project on your premises for development and testing purposes.
 
 
 
-### Pre-requisitos 📋
+### Prerequirements 📋
 
 XAMPP software installation
 
 
 
-### Instalación 🔧
+### Installing 🔧
 
 - [Guide to install XAMPP](https://www.php.net/manual/es/intro-whatcando.php)
 
@@ -25,7 +23,7 @@ When you have installed XAMPP follow the steps below.
 
 
 
-## Ejecutando las pruebas ⚙️
+## Running the tests ⚙️
 
 To view the file, type the following in your browser:
 
@@ -34,19 +32,18 @@ To view the file, type the following in your browser:
 
 
 
-## Construido con 🛠️
+## Built With 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [PHP](https://www.php.net/) 
 
 
 
 
-## Autores ✒️
+## Authors ✒️
 
 * **Jose Torres** - *Trabajo Inicial* - [88jose](https://github.com/88jose)
-* **Assembler Institute of Tecnology** - [assembler-institute](https://github.com/assembler-institute)
+
 
 
 
