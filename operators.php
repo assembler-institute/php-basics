@@ -1,14 +1,14 @@
 <?php
 echo ("<h1>Operators</h1>");
 
-# variables
+# Variables
 
 $a = 3.3;
 $b = 4.3;
 
-# aritmetic operators
+# Aritmetic operators
 
-echo ("aritmetics operators: <br>");
+echo ("Aritmetics operators: <br>");
 $sum = $a + $b;
 var_dump($sum);
 echo ("<br>");
@@ -30,8 +30,9 @@ var_dump($remainder);
 echo ("<hr>");
 
 
-# comparison operators
-echo ("comparison operators: <br>");
+# Comparison operators
+
+echo ("Comparison operators: <br>");
 var_dump($a == $b);
 echo ("<br>");
 
@@ -50,8 +51,9 @@ echo ("<br>");
 var_dump($a >= $b);
 echo ("<hr>");
 
-# logical operators
-echo ("logical operators: <br>");
+# Logical operators
+
+echo ("Logical operators: <br>");
 if($a == 4 && $b == 4.3) {
     var_dump("true");
 }else {
