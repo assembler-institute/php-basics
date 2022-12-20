@@ -34,11 +34,11 @@ echo '<br><br>';
 $currentMinute = $date->format('i');
 
 if ($currentMinute < 10) {
-    print "The current minute is less than 10";
+    echo "The current minute is less than 10";
 } else if ($currentMinute > 15) {
-    print "The current minute is more than 15";
+    echo "The current minute is more than 15";
 } else {
-    print "Does not meet any conditions";
+    echo "Does not meet any conditions";
 }
 echo '<br><br>';
 
