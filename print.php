@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<a href="http://127.0.0.1/php-basics" style="text-decoration: none;background-color:black;color:white;">⮜Go Back</a>
     <h1>library of functionalities php</h1>
     <h2>php "echo" instructions</h2>
 
