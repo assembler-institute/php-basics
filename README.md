@@ -11,26 +11,26 @@
 <ul>
   <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
   <li>Choose your SO and architecture and download it.</li>
-</ul>
+
 
 <img alt="1" src="assets/1.png" />
-<p>Click Yes.</p>
+<li>Click Yes.</li>
 <img alt="2" src="assets/2.png" />
-<p>Click Accept.</p>
+<li>Click Accept.</li>
 <img alt="3" src="assets/3.png" />
-<p>Click Next.</p>
+<li>Click Next.</li>
 <img alt="4" src="assets/4.png" />
-<p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
+<li>Select the optional content that you want. You can notice that Apache server is default selected.</li>
 <img alt="5" src="assets/5.png" />
-<p>And finally, select the path where you want to install it.</p>
-
+<li>And finally, select the path where you want to install it.</li>
+</ul>
 ## Running Apache Server
-<img alt="Apache" src="assets/run.png" />
 <p>Once you have installed XAMPP, open it and run Apache until it appears in green and with PID port numbers.</p>
+<img alt="Apache" src="assets/run.png" />
 
 ## How can you open a Page?
-<img alt="URL" src="assets/path.png" />
 <p>You just write "localhost/php-basics/{page name}.php" and you could view this page content.</p>
+<img alt="URL" src="assets/path.png" />
 
 
 ## Built With
