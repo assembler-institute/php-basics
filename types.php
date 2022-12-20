@@ -1,5 +1,7 @@
 <?php
 
+// value types
+
 $isTrue = false;
 
 $number = 5;

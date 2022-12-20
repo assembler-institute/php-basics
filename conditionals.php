@@ -1,19 +1,28 @@
 <?php
+
+// set default timezone
+
 date_default_timezone_set('Europe/Madrid');
 
 $weekDay = date('w');
 $month = date('F');
 $minutes = date('i');
 
+// check if today is monday
+
 if ($weekDay == 1) {
     echo 'Today is Monday <br>';
 }
+
+// check if month is october
 
 if ($month == "October") {
     echo "We are in " . $month ."<br>";
 } else {
     echo $month . "<br>";
 }
+
+//check minutes
 
 if($minutes < 10){
     echo "the current minute is less than 10 <br>";
@@ -22,6 +31,8 @@ if($minutes < 10){
 } else{
     echo "does not meet any conditions <br>";
 }
+
+//display different message depending on what day today is
 
 switch ($weekDay) {
     case 1:

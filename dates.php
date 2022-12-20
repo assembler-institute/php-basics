@@ -1,6 +1,10 @@
 <?php
 
+// instance DateTime
+
 $date = new DateTime();
+
+// different time formats
 
 echo $date->format('Y-m-m');
 

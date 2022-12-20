@@ -1,4 +1,7 @@
 <?php 
+
+// different ways to print values
+
 echo 'Hello World from echo <br>';
 
 print 'Hello World from print <br>';

@@ -1,9 +1,14 @@
 <?php
+
+// array declarations
+
 $fruits = ['orange', 'banana', 'apple'];
 
 $nums = [1, 2.4, 5, 3, 4.6];
 
 $multidimensionArr = ['hello', 'world', [1, 2, 3]];
+
+// get length of array
 
 function getLengthOfArray($arr)
 {
@@ -11,6 +16,8 @@ function getLengthOfArray($arr)
 }
 
 echo getLengthOfArray($multidimensionArr) . '<br>';
+
+// combine arrays
 
 function combineArrays($arr1, $arr2)
 {
@@ -20,6 +27,8 @@ function combineArrays($arr1, $arr2)
 print_r(combineArrays($fruits, $nums));
 echo '<br>';
 
+// return last element
+
 function returnLast($arr)
 {
     return $arr[count($arr) - 1];
@@ -27,6 +36,8 @@ function returnLast($arr)
 
 print_r(returnLast($fruits));
 echo '<br>';
+
+// add element to array
 
 function addElement($arr, $elementToAdd)
 {

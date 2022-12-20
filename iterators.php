@@ -1,4 +1,7 @@
 <?php
+
+// different iterators
+
 echo "for loop <br>";
 
 for($i = 0 ; $i < 5; $i++){

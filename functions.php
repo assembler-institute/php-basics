@@ -1,4 +1,7 @@
 <?php
+
+// functions to calculate values
+
 function sum($a, $b)
 {
     return $a + $b;
