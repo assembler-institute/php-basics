@@ -33,7 +33,7 @@
 - Install Xampp
 - Create differents blanks of content
 - Write README
-- Do de pull request
+- Do de pull request.
 
 
 ## Resources
