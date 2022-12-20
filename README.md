@@ -8,9 +8,9 @@ If you want, you can download XAMPP, this software will allow you to have an ent
 This software brings you together everything you need like: web technologies ,web server, php interpreter and a MariaDB database.
 
 
-## Repository
+## Fork
 - [Forked from assembler-institute/php-basics](https://github.com/assembler-institute/php-basics.git)
-- [Repository](https://github.com/Psicowar/php-basics.git)
+
 
 
 ## Technologies used
