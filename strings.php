@@ -103,7 +103,7 @@ echo ($string);
 
   //Executes the function that allows to obtain the position of the first occurrence of a text within a text string
   echo '<h4>Executes the function that allows to obtain the position of the first occurrence of a text within a text string</h4>';
-  echo '<pre>echo strpos("I love my cats! cats lovers", "cat");</pre> ==> ';
+  echo '<pre>echo strpos("I love my cats! cats lovers", "cats");</pre> ==> ';
   echo strpos("I love my cats! cats lovers", "cats");
 
   hr();
