@@ -41,25 +41,13 @@ echo "<br><br>";
 
 /* object */
 
-class Pencil {
-    public $color;
-    public $model;
-    public function __construct($color, $model) {
-      $this->color = $color;
-      $this->model = $model;
-    }
-    public function message() {
-      return "My pencil is a " . $this->color . " " . $this->model . "!";
-    }
-  }
-  
-  $myPencil = new Pencil("black", "Bic");
-  echo $myPencil -> message();
-  echo "<br>";
-  $myPencil = new Pencil("red", "Pilot");
-  echo $myPencil -> message();
+$object = (object) [
+  'propertyOne' => 'foo',
+  'propertyTwo' => 42,
+];
 
-  echo "<br><br>";
+var_dump($object);
+echo "<br><br>";
 
 /* null */
 
