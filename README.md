@@ -13,18 +13,16 @@
   <li>Choose your SO and architecture and download it.</li>
 </ul>
 
-![1](https://user-images.githubusercontent.com/103459716/208667159-9ac5ab11-7f53-404d-a66c-1065efc369f8.png)
-
+![1](https://user-images.githubusercontent.com/103459716/208669489-09cc934f-1867-45e2-8b56-af491c68d365.png)
 <p>Click Yes.</p>
-
-
-
+![2](https://user-images.githubusercontent.com/103459716/208669506-49dc5ae4-1395-43ec-a688-c210461eccc5.png)
 <p>Click Accept.</p>
-
 ![3](https://user-images.githubusercontent.com/103459716/208669090-799f0197-3607-494d-9467-c278a8c7d7e9.png)
-
 <p>Click Next.</p>
-
+![4](https://user-images.githubusercontent.com/103459716/208669685-7405ba73-af5e-41f2-aeac-2f9589b0b1dc.png)
+<p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
+![5](https://user-images.githubusercontent.com/103459716/208669866-bda984b7-0d82-459a-995d-e0c1dcc9aed3.png)
+<p>And finally, select the path where you want to install it.</p>
 End with an example of getting some data out of the system or using it for a little demo
 
 Running the tests
