@@ -1,23 +1,28 @@
-Project Title
-PHP Cheat Sheets
+# Project Title
+<p>PHP Basics</p>
 
-Getting Started
-To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include.
+## Getting Started
+<p>To start this project you only have to run Apache server and open it in your browser with one of the pages that this project include. I recommend that you install XAMPP</p>
 
-Prerequisites
-Install Xampp in your computer and run Apache server.
+## Prerequisites
+<p>Install XAMPP in your computer and run Apache server.</p>
 
-Installing
--You can download Xampp in this page https://www.apachefriends.org/es/download.html
--Choose your SO and architecture and download it.
+## Installing XAMPP
+<ul>
+  <li>You can download XAMPP in this page https://www.apachefriends.org/es/download.html</li>
+  <li>Choose your SO and architecture and download it.</li>
+</ul>
 
-assets/1.png
--Click Yes.
-assets/2.png
--Click Accept.
-assets/3.png
--Click Next.
-
+<img alt="1" src="assets/1.png" />
+<p>Click Yes.</p>
+<img alt="2" src="assets/2.png" />
+<p>Click Accept.</p>
+<img alt="3" src="assets/3.png" />
+<p>Click Next.</p>
+<img alt="4" src="assets/4.png" />
+<p>Select the optional content that you want. You can notice that Apache server is default selected.</p>
+<img alt="5" src="assets/5.png" />
+<p>And finally, select the path where you want to install it.</p>
 End with an example of getting some data out of the system or using it for a little demo
 
 Running the tests
