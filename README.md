@@ -1,51 +1,41 @@
-`#php` `#basics` `#master-in-software-development`
+# PHP Basics 💻<!-- omit in toc -->
 
-# PHP Basics <!-- omit in toc -->
-
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
-
-> In this project you will learn the basic notions of the famous PHP language which is so used in the world of web development.
+> In this project we learnt the basic notions of PHP which is widely used in the world of web development.
 >
 > What distinguishes PHP from other languages ​​such as Javascript is that the code is executed on the server, generating HTML and sending it to the client.
 
 ## Index <!-- omit in toc -->
 
 - [Requirements](#requirements)
-- [Repository](#repository)
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
 - [Resources](#resources)
 
 ## Requirements
 
 - Learn the basics to program in PHP
+- Installing and using XAMPP
+- Navigate to htdocs and create all files to appear on localserver
 - Understand what a server-side language is and what it is used for
 
-## Repository
+## Screen Captures of Xampp
 
-First of all you must fork this project into your GitHub account.
+<h2>Welcome Page XAMPP</h2>
+<p>
+<img src="img/xampp1.jpeg" alt="xampp1">
+</p>
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/cb-23088/images/help/repository/fork_button.png" alt="Fork on GitHub" width='450'>
+<h2>XAMPP Apache</h2>
+<p>
+<img src="img/xampp2.jpeg" alt="xampp2">
+</p>
 
 ## Technologies used
 
 \* PHP
-
-## Project delivery
-
-To deliver this project you must send a Pull Request as explained in the Students Handbook. Remember that the PR title must be with the format 
-- Solution: + NAME AND SURNAME or TEAM NAMES AND SURNAMES.
-- For example: "Solution: Josep Riera", "Solution: Josep Riera, Toni Suárez, Marta Vázquez"
+\* Xampp 
+\* VSCode
 
 ## Resources
 
-- [What can PHP do?](https://www.php.net/manual/es/intro-whatcando.php)
-- [Sample guide for README](https://gist.github.com/Villanuevand/6386899f70346d4580c723232524d35a)
 - [XAMPP](https://www.apachefriends.org/es/index.html)
-- [How to install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
-- [What is a web server?](https://www.youtube.com/watch?v=Yt1nesKi5Ec)
-- [Web server basics](https://www.youtube.com/watch?v=3VqfpVKvlxQ)
+
