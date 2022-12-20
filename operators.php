@@ -18,22 +18,30 @@ function divOfBoth(int $a, int $b){
 echo divOfBoth(70,7); 
 echo "<br><br>";
 
-function divOfBoth(int $a, int $b){
+function prOfBoth(int $a, int $b){
     return $a % $b;
 }
-echo divOfBoth(70,7); 
+echo prOfBoth(70,7); 
 echo "<br><br>";
 
-// comparison operators
+// Create a usage example for comparison operators: ==,! =, <,>, <=,> =
+$a = 4;
+$b = 3; 
 
-if($a < $b || $a <= $b){
+if($a < $b){
     return -1;
-}elseif ($a > $b && $a => $b){
+}elseif ($a > $b){
     return 1;
 }elseif ($a == $b){
     return 0;
 }elseif($a != $b){
-    return $a
+    return $a;
 }
 
+// Create an example of use for logical operators: &&, And; ||, Or; ! (NOT); Xor
+
+
 ?>
+
+
+
