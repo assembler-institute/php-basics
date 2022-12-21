@@ -28,10 +28,8 @@ function lastElement($animals){
 echo end($animals);
 echo "<br>";
 
-function addElement($numbers){
-    array_push($numbers, 5, 5.5);
-};
-addElement($numbers);
+
+array_push($numbers, 5, 5.5);
 print_r($numbers);
 
 ?>

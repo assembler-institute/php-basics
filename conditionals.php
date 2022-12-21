@@ -37,31 +37,31 @@ echo "<h3>Daily message with switch</h3>";
 $day = date("w");
 
 switch($day) {
-    case $day == 1:
+    case 1:
     echo "Today is Monday :(";
     break;
 
-    case $day == 2:
+    case 2:
         echo "today is Tuesday :(";
         break;
 
-        case $day == 3:
+        case 3:
             echo "today is Wednesday :|";
             break;
 
-            case $day == 4:
+            case 4:
                 echo "today is Thursday :|";
                 break;
 
-                case $day == 5:
+                case 5:
                     echo "today is Friday :)";
                     break;
 
-                    case $day == 6:
+                    case 6:
                         echo "today is Saturday :D";
                         break;
 
-                        case $day == 0:
+                        case 0:
                             echo "today is Sunday :)";
                             break;
 }
