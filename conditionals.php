@@ -9,8 +9,8 @@ if(date("D") == $today){
 echo "<br><br>";
 #We are in October
 
-$today = "October";
-if(date("F") == $today){
+$t = "October";
+if(date("F") == $t){
     echo "We are on October";
 } else{
     echo "We are on&nbsp", date("F");
