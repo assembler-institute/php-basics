@@ -1,5 +1,5 @@
 # PHP-basics :technologist:
-_The goal of this project is to tough the PHP at the first time and to see the basics concept of this programming lagueage. There are eleven files that are separated according to the topics._
+_The goal of this project is to tough the PHP at the first time and to see the basics concept of this programming language. There are eleven files that are separated according to the topics._
 
 ## Resources :pushpin:
 - XAMPP
