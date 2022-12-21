@@ -11,7 +11,7 @@ echo $date3->format("Y-m-d"); // Outputs "2022-12-20"
 
 echo date("d"); // Outputs the current day of the month as a 2-digit number (e.g. "01", "02", ..., "31")
 
-echo $date4->format("d"); // Outputs the current day of the month as a 2-digit number (e.g. "01", "02", ..., "31")
+echo $date3->format("d"); // Outputs the current day of the month as a 2-digit number (e.g. "01", "02", ..., "31")
 
 echo date("m"); // Outputs the current month as a 2-digit number (e.g. "01", "02", ..., "12")
 

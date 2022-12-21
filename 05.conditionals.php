@@ -7,7 +7,7 @@ if ($day == "Monday") {
 }
 
 $date1 = new DateTime();
-$day = $date->format("l"); // Get the current day of the week as a full textual representation (e.g. "Monday", "Tuesday", ..., "Sunday")
+$day = $date1->format("l"); // Get the current day of the week as a full textual representation (e.g. "Monday", "Tuesday", ..., "Sunday")
 
 if ($day == "Monday") {
     echo "We are on Monday";
@@ -75,6 +75,9 @@ switch ($day) {
         echo "Just another day...";
         break;
 }
+
+
+
 
 
 ?>

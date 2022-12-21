@@ -14,13 +14,13 @@ while ($i <= 10) {
     echo $i . "<br>";
     $i++;
 }
-echo"que pasa?"
 
-$i = 1;
+
+$i2 = 1;
 do {
-    echo $i . "<br>";
-    $i++;
-} while ($i <= 10);
+    echo $i2 . "<br>";
+    $i2++;
+} while ($i2 <= 10);
 
 
 ?>
